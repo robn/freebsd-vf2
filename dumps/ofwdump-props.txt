@@ -1,0 +1,4109 @@
+root@generic:~ # ofwdump -ap
+Node 0x38: 
+  serial-number:
+    56 46 37 31 31 30 41 31 2d 32 32 34 39 2d 44 30 30 38 45 30 
+    30 30 2d 30 30 30 30 30 30 36 31 00 
+    'VF7110A1-2249-D008E000-00000061'
+  compatible:
+    73 74 61 72 66 69 76 65 2c 76 69 73 69 6f 6e 66 69 76 65 2d 
+    76 32 00 73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 00 
+  #address-cells:
+    00 00 00 02 
+  #size-cells:
+    00 00 00 02 
+  model:
+    53 74 61 72 46 69 76 65 20 56 69 73 69 6f 6e 46 69 76 65 20 
+    56 32 00 
+    'StarFive VisionFive V2'
+  Node 0xe4: osc
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      01 6e 36 00 
+      '\^An6'
+    phandle:
+      00 00 00 09 
+  Node 0x138: clk-ext-camera
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      01 6e 36 00 
+      '\^An6'
+    phandle:
+      00 00 00 29 
+  Node 0x198: gmac1_rmii_refin
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      02 fa f0 80 
+    phandle:
+      00 00 00 0a 
+  Node 0x1fc: gmac1_rgmii_rxin
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      07 73 59 40 
+    phandle:
+      00 00 00 0b 
+  Node 0x260: i2stx_bclk_ext
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      00 bb 80 00 
+    phandle:
+      00 00 00 0c 
+  Node 0x2c0: i2stx_lrck_ext
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      00 02 ee 00 
+    phandle:
+      00 00 00 0d 
+  Node 0x320: i2srx_bclk_ext
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      00 bb 80 00 
+    phandle:
+      00 00 00 0e 
+  Node 0x380: i2srx_lrck_ext
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      00 02 ee 00 
+    phandle:
+      00 00 00 0f 
+  Node 0x3e0: tdm_ext
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      02 ee 00 00 
+    phandle:
+      00 00 00 10 
+  Node 0x438: mclk_ext
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      00 bb 80 00 
+    phandle:
+      00 00 00 11 
+  Node 0x494: jtag_tck_inner
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      02 fa f0 80 
+    phandle:
+      00 00 00 12 
+  Node 0x4f4: bist_apb
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      02 fa f0 80 
+    phandle:
+      00 00 00 13 
+  Node 0x550: gmac0_rmii_refin
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      02 fa f0 80 
+    phandle:
+      00 00 00 15 
+  Node 0x5b4: gmac0_rgmii_rxin
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      07 73 59 40 
+    phandle:
+      00 00 00 16 
+  Node 0x618: clk_rtc
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      00 00 80 00 
+    phandle:
+      00 00 00 14 
+  Node 0x670: hdmitx0_pixelclk
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      11 b3 dc 40 
+    phandle:
+      00 00 00 18 
+  Node 0x6d4: mipitx_dphy_rxesc
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      00 98 96 80 
+    phandle:
+      00 00 00 19 
+  Node 0x738: mipitx_dphy_txbytehs
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      11 b3 dc 40 
+    phandle:
+      00 00 00 1a 
+  Node 0x7a0: wm8960_mclk
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      01 77 00 00 
+  Node 0x7ec: ac108_mclk
+    compatible:
+      66 69 78 65 64 2d 63 6c 6f 63 6b 00 
+      'fixed-clock'
+    #clock-cells:
+      00 00 00 00 
+    clock-frequency:
+      01 6e 36 00 
+      '\^An6'
+  Node 0x838: opp-table-0
+    compatible:
+      6f 70 65 72 61 74 69 6e 67 2d 70 6f 69 6e 74 73 2d 76 32 00 
+      'operating-points-v2'
+    opp-shared:
+    phandle:
+      00 00 00 02 
+    Node 0x884: opp-375000000
+      opp-hz:
+        00 00 00 00 16 5a 0b c0 
+      opp-microvolt:
+        00 0c 35 00 
+    Node 0x8c0: opp-500000000
+      opp-hz:
+        00 00 00 00 1d cd 65 00 
+      opp-microvolt:
+        00 0c 35 00 
+    Node 0x8fc: opp-750000000
+      opp-hz:
+        00 00 00 00 2c b4 17 80 
+      opp-microvolt:
+        00 0c 35 00 
+    Node 0x938: opp-1500000000
+      opp-hz:
+        00 00 00 00 59 68 2f 00 
+      opp-microvolt:
+        00 0f de 80 
+  Node 0x978: cpus
+    #address-cells:
+      00 00 00 01 
+    #size-cells:
+      00 00 00 00 
+    timebase-frequency:
+      00 3d 09 00 
+    Node 0x9b4: cpu@0
+      compatible:
+        73 69 66 69 76 65 2c 75 37 34 2d 6d 63 00 72 69 73 63 76 00 
+      reg:
+        00 00 00 00 
+      d-cache-block-size:
+        00 00 00 40 
+      d-cache-sets:
+        00 00 00 40 
+      d-cache-size:
+        00 00 20 00 
+      d-tlb-sets:
+        00 00 00 01 
+      d-tlb-size:
+        00 00 00 28 
+      device_type:
+        63 70 75 00 
+        'cpu'
+      i-cache-block-size:
+        00 00 00 40 
+      i-cache-sets:
+        00 00 00 40 
+      i-cache-size:
+        00 00 40 00 
+      i-tlb-sets:
+        00 00 00 01 
+      i-tlb-size:
+        00 00 00 28 
+      mmu-type:
+        72 69 73 63 76 2c 73 76 33 39 00 
+        'riscv,sv39'
+      next-level-cache:
+        00 00 00 01 
+      riscv,isa:
+        72 76 36 34 69 6d 61 63 00 
+        'rv64imac'
+      tlb-split:
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+      Node 0xb04: interrupt-controller
+        #interrupt-cells:
+          00 00 00 01 
+        compatible:
+          72 69 73 63 76 2c 63 70 75 2d 69 6e 74 63 00 
+          'riscv,cpu-intc'
+        interrupt-controller:
+        phandle:
+          00 00 00 04 
+    Node 0xb70: cpu@1
+      compatible:
+        73 69 66 69 76 65 2c 75 37 34 2d 6d 63 00 72 69 73 63 76 00 
+      reg:
+        00 00 00 01 
+      d-cache-block-size:
+        00 00 00 40 
+      d-cache-sets:
+        00 00 00 40 
+      d-cache-size:
+        00 00 80 00 
+      d-tlb-sets:
+        00 00 00 01 
+      d-tlb-size:
+        00 00 00 28 
+      device_type:
+        63 70 75 00 
+        'cpu'
+      i-cache-block-size:
+        00 00 00 40 
+      i-cache-sets:
+        00 00 00 40 
+      i-cache-size:
+        00 00 80 00 
+      i-tlb-sets:
+        00 00 00 01 
+      i-tlb-size:
+        00 00 00 28 
+      mmu-type:
+        72 69 73 63 76 2c 73 76 33 39 00 
+        'riscv,sv39'
+      next-level-cache:
+        00 00 00 01 
+      riscv,isa:
+        72 76 36 34 69 6d 61 66 64 63 00 
+        'rv64imafdc'
+      tlb-split:
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      operating-points-v2:
+        00 00 00 02 
+      Node 0xccc: interrupt-controller
+        #interrupt-cells:
+          00 00 00 01 
+        compatible:
+          72 69 73 63 76 2c 63 70 75 2d 69 6e 74 63 00 
+          'riscv,cpu-intc'
+        interrupt-controller:
+        phandle:
+          00 00 00 05 
+    Node 0xd38: cpu@2
+      compatible:
+        73 69 66 69 76 65 2c 75 37 34 2d 6d 63 00 72 69 73 63 76 00 
+      reg:
+        00 00 00 02 
+      d-cache-block-size:
+        00 00 00 40 
+      d-cache-sets:
+        00 00 00 40 
+      d-cache-size:
+        00 00 80 00 
+      d-tlb-sets:
+        00 00 00 01 
+      d-tlb-size:
+        00 00 00 28 
+      device_type:
+        63 70 75 00 
+        'cpu'
+      i-cache-block-size:
+        00 00 00 40 
+      i-cache-sets:
+        00 00 00 40 
+      i-cache-size:
+        00 00 80 00 
+      i-tlb-sets:
+        00 00 00 01 
+      i-tlb-size:
+        00 00 00 28 
+      mmu-type:
+        72 69 73 63 76 2c 73 76 33 39 00 
+        'riscv,sv39'
+      next-level-cache:
+        00 00 00 01 
+      riscv,isa:
+        72 76 36 34 69 6d 61 66 64 63 00 
+        'rv64imafdc'
+      tlb-split:
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      operating-points-v2:
+        00 00 00 02 
+      Node 0xe94: interrupt-controller
+        #interrupt-cells:
+          00 00 00 01 
+        compatible:
+          72 69 73 63 76 2c 63 70 75 2d 69 6e 74 63 00 
+          'riscv,cpu-intc'
+        interrupt-controller:
+        phandle:
+          00 00 00 06 
+    Node 0xf00: cpu@3
+      compatible:
+        73 69 66 69 76 65 2c 75 37 34 2d 6d 63 00 72 69 73 63 76 00 
+      reg:
+        00 00 00 03 
+      d-cache-block-size:
+        00 00 00 40 
+      d-cache-sets:
+        00 00 00 40 
+      d-cache-size:
+        00 00 80 00 
+      d-tlb-sets:
+        00 00 00 01 
+      d-tlb-size:
+        00 00 00 28 
+      device_type:
+        63 70 75 00 
+        'cpu'
+      i-cache-block-size:
+        00 00 00 40 
+      i-cache-sets:
+        00 00 00 40 
+      i-cache-size:
+        00 00 80 00 
+      i-tlb-sets:
+        00 00 00 01 
+      i-tlb-size:
+        00 00 00 28 
+      mmu-type:
+        72 69 73 63 76 2c 73 76 33 39 00 
+        'riscv,sv39'
+      next-level-cache:
+        00 00 00 01 
+      riscv,isa:
+        72 76 36 34 69 6d 61 66 64 63 00 
+        'rv64imafdc'
+      tlb-split:
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      operating-points-v2:
+        00 00 00 02 
+      Node 0x105c: interrupt-controller
+        #interrupt-cells:
+          00 00 00 01 
+        compatible:
+          72 69 73 63 76 2c 63 70 75 2d 69 6e 74 63 00 
+          'riscv,cpu-intc'
+        interrupt-controller:
+        phandle:
+          00 00 00 07 
+    Node 0x10c8: cpu@4
+      compatible:
+        73 69 66 69 76 65 2c 75 37 34 2d 6d 63 00 72 69 73 63 76 00 
+      reg:
+        00 00 00 04 
+      d-cache-block-size:
+        00 00 00 40 
+      d-cache-sets:
+        00 00 00 40 
+      d-cache-size:
+        00 00 80 00 
+      d-tlb-sets:
+        00 00 00 01 
+      d-tlb-size:
+        00 00 00 28 
+      device_type:
+        63 70 75 00 
+        'cpu'
+      i-cache-block-size:
+        00 00 00 40 
+      i-cache-sets:
+        00 00 00 40 
+      i-cache-size:
+        00 00 80 00 
+      i-tlb-sets:
+        00 00 00 01 
+      i-tlb-size:
+        00 00 00 28 
+      mmu-type:
+        72 69 73 63 76 2c 73 76 33 39 00 
+        'riscv,sv39'
+      next-level-cache:
+        00 00 00 01 
+      riscv,isa:
+        72 76 36 34 69 6d 61 66 64 63 00 
+        'rv64imafdc'
+      tlb-split:
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      operating-points-v2:
+        00 00 00 02 
+      Node 0x1224: interrupt-controller
+        #interrupt-cells:
+          00 00 00 01 
+        compatible:
+          72 69 73 63 76 2c 63 70 75 2d 69 6e 74 63 00 
+          'riscv,cpu-intc'
+        interrupt-controller:
+        phandle:
+          00 00 00 08 
+  Node 0x1294: soc
+    compatible:
+      73 69 6d 70 6c 65 2d 62 75 73 00 
+      'simple-bus'
+    interrupt-parent:
+      00 00 00 03 
+    #address-cells:
+      00 00 00 02 
+    #size-cells:
+      00 00 00 02 
+    #clock-cells:
+      00 00 00 01 
+    ranges:
+    Node 0x1300: cache-controller@2010000
+      compatible:
+        73 69 66 69 76 65 2c 66 75 37 34 30 2d 63 30 30 30 2d 63 63 
+        61 63 68 65 00 63 61 63 68 65 00 
+      reg:
+        00 00 00 00 02 01 00 00 00 00 00 00 00 00 40 00 00 00 00 00 
+        08 00 00 00 00 00 00 00 02 00 00 00 
+      reg-names:
+        63 6f 6e 74 72 6f 6c 00 73 69 64 65 62 61 6e 64 00 
+      interrupts:
+        00 00 00 01 00 00 00 03 00 00 00 04 00 00 00 02 
+      cache-block-size:
+        00 00 00 40 
+      cache-level:
+        00 00 00 02 
+      cache-sets:
+        00 00 08 00 
+      cache-size:
+        00 20 00 00 
+      cache-unified:
+      phandle:
+        00 00 00 01 
+    Node 0x1414: aon_syscon@17010000
+      compatible:
+        73 79 73 63 6f 6e 00 
+        'syscon'
+      reg:
+        00 00 00 00 17 01 00 00 00 00 00 00 00 00 10 00 
+      phandle:
+        00 00 00 2f 
+    Node 0x1470: stg_syscon@10240000
+      compatible:
+        73 79 73 63 6f 6e 00 
+        'syscon'
+      reg:
+        00 00 00 00 10 24 00 00 00 00 00 00 00 00 10 00 
+      phandle:
+        00 00 00 1e 
+    Node 0x14cc: sys_syscon@13030000
+      compatible:
+        73 79 73 63 6f 6e 00 
+        'syscon'
+      reg:
+        00 00 00 00 13 03 00 00 00 00 00 00 00 00 10 00 
+      phandle:
+        00 00 00 17 
+    Node 0x1528: clint@2000000
+      compatible:
+        72 69 73 63 76 2c 63 6c 69 6e 74 30 00 
+        'riscv,clint0'
+      reg:
+        00 00 00 00 02 00 00 00 00 00 00 00 00 01 00 00 
+      reg-names:
+        63 6f 6e 74 72 6f 6c 00 
+        'control'
+      interrupts-extended:
+        00 00 00 04 00 00 00 03 00 00 00 04 00 00 00 07 00 00 00 05 
+        00 00 00 03 00 00 00 05 00 00 00 07 00 00 00 06 00 00 00 03 
+        00 00 00 06 00 00 00 07 00 00 00 07 00 00 00 03 00 00 00 07 
+        00 00 00 07 00 00 00 08 00 00 00 03 00 00 00 08 00 00 00 07 
+      #interrupt-cells:
+        00 00 00 01 
+    Node 0x15f8: plic@c000000
+      compatible:
+        72 69 73 63 76 2c 70 6c 69 63 30 00 
+        'riscv,plic0'
+      reg:
+        00 00 00 00 0c 00 00 00 00 00 00 00 04 00 00 00 
+      reg-names:
+        63 6f 6e 74 72 6f 6c 00 
+        'control'
+      interrupts-extended:
+        00 00 00 04 00 00 00 0b 00 00 00 05 00 00 00 0b 00 00 00 05 
+        00 00 00 09 00 00 00 06 00 00 00 0b 00 00 00 06 00 00 00 09 
+        00 00 00 07 00 00 00 0b 00 00 00 07 00 00 00 09 00 00 00 08 
+        00 00 00 0b 00 00 00 08 00 00 00 09 
+      interrupt-controller:
+      #interrupt-cells:
+        00 00 00 01 
+      riscv,max-priority:
+        00 00 00 07 
+      riscv,ndev:
+        00 00 00 88 
+      phandle:
+        00 00 00 03 
+    Node 0x16f8: clock-controller
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 63 6c 6b 67 
+        65 6e 00 
+        'starfive,jh7110-clkgen'
+      reg:
+        00 00 00 00 13 02 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+        10 23 00 00 00 00 00 00 00 01 00 00 00 00 00 00 17 00 00 00 
+        00 00 00 00 00 01 00 00 
+      reg-names:
+        73 79 73 00 73 74 67 00 61 6f 6e 00 
+      clocks:
+        00 00 00 09 00 00 00 0a 00 00 00 0b 00 00 00 0c 00 00 00 0d 
+        00 00 00 0e 00 00 00 0f 00 00 00 10 00 00 00 11 00 00 00 12 
+        00 00 00 13 00 00 00 14 00 00 00 15 00 00 00 16 
+      clock-names:
+        6f 73 63 00 67 6d 61 63 31 5f 72 6d 69 69 5f 72 65 66 69 6e 
+        00 67 6d 61 63 31 5f 72 67 6d 69 69 5f 72 78 69 6e 00 69 32 
+        73 74 78 5f 62 63 6c 6b 5f 65 78 74 00 69 32 73 74 78 5f 6c 
+        72 63 6b 5f 65 78 74 00 69 32 73 72 78 5f 62 63 6c 6b 5f 65 
+        78 74 00 69 32 73 72 78 5f 6c 72 63 6b 5f 65 78 74 00 74 64 
+        6d 5f 65 78 74 00 6d 63 6c 6b 5f 65 78 74 00 6a 74 61 67 5f 
+        74 63 6b 5f 69 6e 6e 65 72 00 62 69 73 74 5f 61 70 62 00 63 
+        6c 6b 5f 72 74 63 00 67 6d 61 63 30 5f 72 6d 69 69 5f 72 65 
+        66 69 6e 00 67 6d 61 63 30 5f 72 67 6d 69 69 5f 72 78 69 6e 
+        00 
+      #clock-cells:
+        00 00 00 01 
+      starfive,sys-syscon:
+        00 00 00 17 00 00 00 18 00 00 00 1c 00 00 00 20 00 00 00 24 
+        00 00 00 28 00 00 00 2c 00 00 00 30 00 00 00 34 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      phandle:
+        00 00 00 1b 
+    Node 0x18f8: clock-controller@295C0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 63 6c 6b 2d 
+        76 6f 75 74 00 
+        'starfive,jh7110-clk-vout'
+      reg:
+        00 00 00 00 29 5c 00 00 00 00 00 00 00 01 00 00 
+      reg-names:
+        76 6f 75 74 00 
+        'vout'
+      clocks:
+        00 00 00 18 00 00 00 19 00 00 00 1a 00 00 00 1b 00 00 00 3a 
+        00 00 00 1b 00 00 00 3d 
+      clock-names:
+        68 64 6d 69 74 78 30 5f 70 69 78 65 6c 63 6c 6b 00 6d 69 70 
+        69 74 78 5f 64 70 68 79 5f 72 78 65 73 63 00 6d 69 70 69 74 
+        78 5f 64 70 68 79 5f 74 78 62 79 74 65 68 73 00 76 6f 75 74 
+        5f 73 72 63 00 76 6f 75 74 5f 74 6f 70 5f 61 68 62 00 
+      resets:
+        00 00 00 1c 00 00 00 2b 
+      reset-names:
+        76 6f 75 74 5f 73 72 63 00 
+        'vout_src'
+      #clock-cells:
+        00 00 00 01 
+      power-domains:
+        00 00 00 1d 00 00 00 04 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      phandle:
+        00 00 00 45 
+    Node 0x1a6c: clock-controller@19810000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 63 6c 6b 2d 
+        69 73 70 00 
+        'starfive,jh7110-clk-isp'
+      reg:
+        00 00 00 00 19 81 00 00 00 00 00 00 00 01 00 00 
+      reg-names:
+        69 73 70 00 
+        'isp'
+      #clock-cells:
+        00 00 00 01 
+      clocks:
+        00 00 00 1b 00 00 01 0a 00 00 00 1b 00 00 00 33 00 00 00 1b 
+        00 00 00 34 00 00 00 1b 00 00 00 35 
+      clock-names:
+        75 30 5f 64 6f 6d 5f 69 73 70 5f 74 6f 70 5f 63 6c 6b 5f 64 
+        6f 6d 5f 69 73 70 5f 74 6f 70 5f 63 6c 6b 5f 64 76 70 00 75 
+        30 5f 64 6f 6d 5f 69 73 70 5f 74 6f 70 5f 63 6c 6b 5f 64 6f 
+        6d 5f 69 73 70 5f 74 6f 70 5f 63 6c 6b 5f 69 73 70 63 6f 72 
+        65 5f 32 78 00 75 30 5f 64 6f 6d 5f 69 73 70 5f 74 6f 70 5f 
+        63 6c 6b 5f 64 6f 6d 5f 69 73 70 5f 74 6f 70 5f 63 6c 6b 5f 
+        69 73 70 5f 61 78 69 00 75 30 5f 73 66 74 37 31 31 30 5f 6e 
+        6f 63 5f 62 75 73 5f 63 6c 6b 5f 69 73 70 5f 61 78 69 00 
+      resets:
+        00 00 00 1c 00 00 00 29 00 00 00 1c 00 00 00 2a 00 00 00 1c 
+        00 00 00 1c 
+      reset-names:
+        72 73 74 5f 69 73 70 5f 74 6f 70 5f 6e 00 72 73 74 5f 69 73 
+        70 5f 74 6f 70 5f 61 78 69 00 72 73 74 5f 69 73 70 5f 6e 6f 
+        63 5f 62 75 73 5f 6e 00 
+      power-domains:
+        00 00 00 1d 00 00 00 05 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      phandle:
+        00 00 00 2e 
+    Node 0x1c60: spi@13010000
+      compatible:
+        63 64 6e 73 2c 71 73 70 69 2d 6e 6f 72 00 
+        'cdns,qspi-nor'
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      reg:
+        00 00 00 00 13 01 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+        21 00 00 00 00 00 00 00 00 40 00 00 
+      interrupts:
+        00 00 00 19 
+      clocks:
+        00 00 00 1b 00 00 00 5a 00 00 00 1b 00 00 00 58 00 00 00 1b 
+        00 00 00 0a 00 00 00 1b 00 00 00 57 
+      clock-names:
+        63 6c 6b 5f 72 65 66 00 63 6c 6b 5f 61 70 62 00 61 68 62 31 
+        00 63 6c 6b 5f 61 68 62 00 
+      resets:
+        00 00 00 1c 00 00 00 3e 00 00 00 1c 00 00 00 3d 00 00 00 1c 
+        00 00 00 3f 
+      resets-names:
+        72 73 74 5f 61 70 62 00 72 73 74 5f 61 68 62 00 72 73 74 5f 
+        72 65 66 00 
+      cdns,fifo-depth:
+        00 00 01 00 
+      cdns,fifo-width:
+        00 00 00 04 
+      cdns,trigger-address:
+        00 00 00 00 
+      spi-max-frequency:
+        0e e6 b2 80 
+      Node 0x1dcc: nor-flash@0
+        compatible:
+          6a 65 64 65 63 2c 73 70 69 2d 6e 6f 72 00 
+          'jedec,spi-nor'
+        reg:
+          00 00 00 00 
+        cdns,read-delay:
+          00 00 00 05 
+        spi-max-frequency:
+          05 f5 e1 00 
+          '\^E\M-u\M-a'
+        cdns,tshsl-ns:
+          00 00 00 01 
+        cdns,tsd2d-ns:
+          00 00 00 01 
+        cdns,tchsh-ns:
+          00 00 00 01 
+        cdns,tslch-ns:
+          00 00 00 01 
+        Node 0x1e68: partitions
+          compatible:
+            66 69 78 65 64 2d 70 61 72 74 69 74 69 6f 6e 73 00 
+            'fixed-partitions'
+          #address-cells:
+            00 00 00 01 
+          #size-cells:
+            00 00 00 01 
+          Node 0x1eb8: spl@0
+            reg:
+              00 00 00 00 00 02 00 00 
+          Node 0x1edc: uboot@100000
+            reg:
+              00 10 00 00 00 30 00 00 
+          Node 0x1f08: data@f00000
+            reg:
+              00 f0 00 00 00 10 00 00 
+    Node 0x1f3c: otp@17050000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 6f 74 70 00 
+        'starfive,jh7110-otp'
+      reg:
+        00 00 00 00 17 05 00 00 00 00 00 00 00 01 00 00 
+      clock-frequency:
+        00 3d 09 00 
+      clocks:
+        00 00 00 1b 00 00 00 e4 
+      clock-names:
+        61 70 62 00 
+        'apb'
+    Node 0x1fc4: usbdrd
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 63 64 6e 73 
+        33 00 
+        'starfive,jh7110-cdns3'
+      reg:
+        00 00 00 00 10 21 00 00 00 00 00 00 00 00 10 00 00 00 00 00 
+        10 20 00 00 00 00 00 00 00 00 10 00 
+      clocks:
+        00 00 00 1b 00 00 00 5f 00 00 00 1b 00 00 00 c4 00 00 00 1b 
+        00 00 00 c2 00 00 00 1b 00 00 00 c3 00 00 00 1b 00 00 00 bf 
+        00 00 00 1b 00 00 00 c1 00 00 00 1b 00 00 00 c0 
+      clock-names:
+        31 32 35 6d 00 61 70 70 00 6c 70 6d 00 73 74 62 00 61 70 62 
+        00 61 78 69 00 75 74 6d 69 00 
+      resets:
+        00 00 00 1c 00 00 00 8a 00 00 00 1c 00 00 00 88 00 00 00 1c 
+        00 00 00 87 00 00 00 1c 00 00 00 89 
+      reset-names:
+        70 77 72 75 70 00 61 70 62 00 61 78 69 00 75 74 6d 69 00 
+      starfive,stg-syscon:
+        00 00 00 1e 00 00 00 04 00 00 00 c4 00 00 01 48 00 00 01 f4 
+      starfive,sys-syscon:
+        00 00 00 17 00 00 00 18 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      #address-cells:
+        00 00 00 02 
+      #size-cells:
+        00 00 00 02 
+      #interrupt-cells:
+        00 00 00 01 
+      ranges:
+      starfive,usb2-only:
+      dr_mode:
+        70 65 72 69 70 68 65 72 61 6c 00 
+        'peripheral'
+      Node 0x2184: usb@10100000
+        compatible:
+          63 64 6e 73 2c 75 73 62 33 00 
+          'cdns,usb3'
+        reg:
+          00 00 00 00 10 10 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+          10 11 00 00 00 00 00 00 00 01 00 00 00 00 00 00 10 12 00 00 
+          00 00 00 00 00 01 00 00 
+        reg-names:
+          6f 74 67 00 78 68 63 69 00 64 65 76 00 
+        interrupts:
+          00 00 00 64 00 00 00 6c 00 00 00 6e 
+        interrupt-names:
+          68 6f 73 74 00 70 65 72 69 70 68 65 72 61 6c 00 6f 74 67 00 
+        phy-names:
+          63 64 6e 73 33 2c 75 73 62 33 2d 70 68 79 00 63 6e 64 73 33 
+          2c 75 73 62 32 2d 70 68 79 00 
+        maximum-speed:
+          73 75 70 65 72 2d 73 70 65 65 64 00 
+          'super-speed'
+    Node 0x228c: timer@13050000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 74 69 6d 65 
+        72 73 00 
+        'starfive,jh7110-timers'
+      reg:
+        00 00 00 00 13 05 00 00 00 00 00 00 00 01 00 00 
+      interrupts:
+        00 00 00 45 00 00 00 46 00 00 00 47 00 00 00 48 
+      interrupt-names:
+        74 69 6d 65 72 30 00 74 69 6d 65 72 31 00 74 69 6d 65 72 32 
+        00 74 69 6d 65 72 33 00 
+      clocks:
+        00 00 00 1b 00 00 00 7d 00 00 00 1b 00 00 00 7e 00 00 00 1b 
+        00 00 00 7f 00 00 00 1b 00 00 00 80 00 00 00 1b 00 00 00 7c 
+      clock-names:
+        74 69 6d 65 72 30 00 74 69 6d 65 72 31 00 74 69 6d 65 72 32 
+        00 74 69 6d 65 72 33 00 61 70 62 5f 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 76 00 00 00 1c 00 00 00 77 00 00 00 1c 
+        00 00 00 78 00 00 00 1c 00 00 00 79 00 00 00 1c 00 00 00 75 
+      reset-names:
+        74 69 6d 65 72 30 00 74 69 6d 65 72 31 00 74 69 6d 65 72 32 
+        00 74 69 6d 65 72 33 00 61 70 62 5f 72 73 74 00 
+      clock-frequency:
+        01 6e 36 00 
+        '\^An6'
+      status:
+        6f 6b 61 79 00 
+        'okay'
+    Node 0x2414: wdog@13070000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 77 64 74 00 
+        'starfive,jh7110-wdt'
+      reg:
+        00 00 00 00 13 07 00 00 00 00 00 00 00 01 00 00 
+      interrupts:
+        00 00 00 44 
+      interrupt-names:
+        77 64 6f 67 00 
+        'wdog'
+      clocks:
+        00 00 00 1b 00 00 00 7b 00 00 00 1b 00 00 00 7a 
+      clock-names:
+        63 6f 72 65 5f 63 6c 6b 00 61 70 62 5f 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 6d 00 00 00 1c 00 00 00 6e 
+      reset-names:
+        72 73 74 5f 61 70 62 00 72 73 74 5f 63 6f 72 65 00 
+      timeout-sec:
+        00 00 00 0f 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+    Node 0x2528: rtc@17040000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 72 74 63 00 
+        'starfive,jh7110-rtc'
+      reg:
+        00 00 00 00 17 04 00 00 00 00 00 00 00 01 00 00 
+      interrupts:
+        00 00 00 0a 00 00 00 0b 00 00 00 0c 
+      interrupt-names:
+        72 74 63 5f 6d 73 5f 70 75 6c 73 65 00 72 74 63 5f 73 65 63 
+        5f 70 75 6c 73 65 00 72 74 63 00 
+      clocks:
+        00 00 00 1b 00 00 00 e5 00 00 00 1b 00 00 00 e8 
+      clock-names:
+        70 63 6c 6b 00 63 61 6c 5f 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 a7 00 00 00 1c 00 00 00 a5 00 00 00 1c 
+        00 00 00 a6 
+      reset-names:
+        72 73 74 5f 6f 73 63 00 72 73 74 5f 61 70 62 00 72 73 74 5f 
+        63 61 6c 00 
+      rtc,cal-clock-freq:
+        00 0f 42 40 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+    Node 0x2664: power-controller@17030000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 70 6d 75 00 
+        'starfive,jh7110-pmu'
+      reg:
+        00 00 00 00 17 03 00 00 00 00 00 00 00 01 00 00 
+      interrupts:
+        00 00 00 6f 
+      #power-domain-cells:
+        00 00 00 01 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      phandle:
+        00 00 00 1d 
+    Node 0x2708: serial@10000000
+      compatible:
+        73 6e 70 73 2c 64 77 2d 61 70 62 2d 75 61 72 74 00 
+        'snps,dw-apb-uart'
+      reg:
+        00 00 00 00 10 00 00 00 00 00 00 00 00 01 00 00 
+      reg-io-width:
+        00 00 00 04 
+      reg-shift:
+        00 00 00 02 
+      clocks:
+        00 00 00 1b 00 00 00 92 00 00 00 1b 00 00 00 91 
+      clock-names:
+        62 61 75 64 63 6c 6b 00 61 70 62 5f 70 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 53 00 00 00 1c 00 00 00 54 
+      interrupts:
+        00 00 00 20 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      pinctrl-names:
+        64 65 66 61 75 6c 74 00 
+        'default'
+      pinctrl-0:
+        00 00 00 1f 
+    Node 0x281c: serial@10010000
+      compatible:
+        73 6e 70 73 2c 64 77 2d 61 70 62 2d 75 61 72 74 00 
+        'snps,dw-apb-uart'
+      reg:
+        00 00 00 00 10 01 00 00 00 00 00 00 00 01 00 00 
+      reg-io-width:
+        00 00 00 04 
+      reg-shift:
+        00 00 00 02 
+      clocks:
+        00 00 00 1b 00 00 00 94 00 00 00 1b 00 00 00 93 
+      clock-names:
+        62 61 75 64 63 6c 6b 00 61 70 62 5f 70 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 55 00 00 00 1c 00 00 00 56 
+      interrupts:
+        00 00 00 21 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x2910: serial@10020000
+      compatible:
+        73 6e 70 73 2c 64 77 2d 61 70 62 2d 75 61 72 74 00 
+        'snps,dw-apb-uart'
+      reg:
+        00 00 00 00 10 02 00 00 00 00 00 00 00 01 00 00 
+      reg-io-width:
+        00 00 00 04 
+      reg-shift:
+        00 00 00 02 
+      clocks:
+        00 00 00 1b 00 00 00 96 00 00 00 1b 00 00 00 95 
+      clock-names:
+        62 61 75 64 63 6c 6b 00 61 70 62 5f 70 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 57 00 00 00 1c 00 00 00 58 
+      interrupts:
+        00 00 00 22 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x2a04: serial@12000000
+      compatible:
+        73 6e 70 73 2c 64 77 2d 61 70 62 2d 75 61 72 74 00 
+        'snps,dw-apb-uart'
+      reg:
+        00 00 00 00 12 00 00 00 00 00 00 00 00 01 00 00 
+      reg-io-width:
+        00 00 00 04 
+      reg-shift:
+        00 00 00 02 
+      clocks:
+        00 00 00 1b 00 00 00 98 00 00 00 1b 00 00 00 97 
+      clock-names:
+        62 61 75 64 63 6c 6b 00 61 70 62 5f 70 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 59 00 00 00 1c 00 00 00 5a 
+      interrupts:
+        00 00 00 2d 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x2af8: serial@12010000
+      compatible:
+        73 6e 70 73 2c 64 77 2d 61 70 62 2d 75 61 72 74 00 
+        'snps,dw-apb-uart'
+      reg:
+        00 00 00 00 12 01 00 00 00 00 00 00 00 01 00 00 
+      reg-io-width:
+        00 00 00 04 
+      reg-shift:
+        00 00 00 02 
+      clocks:
+        00 00 00 1b 00 00 00 9a 00 00 00 1b 00 00 00 99 
+      clock-names:
+        62 61 75 64 63 6c 6b 00 61 70 62 5f 70 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 5b 00 00 00 1c 00 00 00 5c 
+      interrupts:
+        00 00 00 2e 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x2bec: serial@12020000
+      compatible:
+        73 6e 70 73 2c 64 77 2d 61 70 62 2d 75 61 72 74 00 
+        'snps,dw-apb-uart'
+      reg:
+        00 00 00 00 12 02 00 00 00 00 00 00 00 01 00 00 
+      reg-io-width:
+        00 00 00 04 
+      reg-shift:
+        00 00 00 02 
+      clocks:
+        00 00 00 1b 00 00 00 9c 00 00 00 1b 00 00 00 9b 
+      clock-names:
+        62 61 75 64 63 6c 6b 00 61 70 62 5f 70 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 5d 00 00 00 1c 00 00 00 5e 
+      interrupts:
+        00 00 00 2f 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x2ce0: dma-controller@16050000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 64 6d 61 00 
+        73 6e 70 73 2c 61 78 69 2d 64 6d 61 2d 31 2e 30 31 61 00 
+      reg:
+        00 00 00 00 16 05 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 00 d9 00 00 00 1b 00 00 00 da 00 00 00 1b 
+        00 00 00 60 
+      clock-names:
+        63 6f 72 65 2d 63 6c 6b 00 63 66 67 72 2d 63 6c 6b 00 73 74 
+        67 5f 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 85 00 00 00 1c 00 00 00 86 00 00 00 1c 
+        00 00 00 1e 
+      reset-names:
+        72 73 74 5f 61 78 69 00 72 73 74 5f 61 68 62 00 72 73 74 5f 
+        73 74 67 00 
+      interrupts:
+        00 00 00 49 
+      #dma-cells:
+        00 00 00 02 
+      dma-channels:
+        00 00 00 04 
+      snps,dma-masters:
+        00 00 00 01 
+      snps,data-width:
+        00 00 00 03 
+      snps,num-hs-if:
+        00 00 00 38 
+      snps,block-size:
+        00 01 00 00 00 01 00 00 00 01 00 00 00 01 00 00 
+      snps,priority:
+        00 00 00 00 00 00 00 01 00 00 00 02 00 00 00 03 
+      snps,axi-max-burst-len:
+        00 00 00 10 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      phandle:
+        00 00 00 32 
+    Node 0x2eb0: gpio@13040000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 73 79 73 2d 
+        70 69 6e 63 74 72 6c 00 
+        'starfive,jh7110-sys-pinctrl'
+      reg:
+        00 00 00 00 13 04 00 00 00 00 00 00 00 01 00 00 
+      reg-names:
+        63 6f 6e 74 72 6f 6c 00 
+        'control'
+      clocks:
+        00 00 00 1b 00 00 00 70 
+      resets:
+        00 00 00 1c 00 00 00 02 
+      interrupts:
+        00 00 00 56 
+      interrupt-controller:
+      #gpio-cells:
+        00 00 00 02 
+      ngpios:
+        00 00 00 40 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      phandle:
+        00 00 00 25 
+      Node 0x2fa4: i2c0-pins
+        phandle:
+          00 00 00 22 
+        Node 0x2fc4: i2c0-pins-scl
+          starfive,pins:
+            00 00 00 39 
+          starfive,pinmux:
+            00 00 02 ac 00 00 00 0c 00 00 70 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 09 
+          starfive,pin-gpio-dout:
+            00 00 00 00 
+          starfive,pin-gpio-doen:
+            00 00 00 05 
+          starfive,pin-gpio-din:
+            00 00 00 09 
+        Node 0x3048: i2c0-pins-sda
+          starfive,pins:
+            00 00 00 3a 
+          starfive,pinmux:
+            00 00 02 ac 00 00 00 0f 00 03 80 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 09 
+          starfive,pin-gpio-dout:
+            00 00 00 00 
+          starfive,pin-gpio-doen:
+            00 00 00 06 
+          starfive,pin-gpio-din:
+            00 00 00 0a 
+      Node 0x30d0: i2c5-pins
+        phandle:
+          00 00 00 27 
+        Node 0x30f0: i2c5-pins-scl
+          starfive,pins:
+            00 00 00 13 
+          starfive,pinmux:
+            00 00 02 9c 00 00 00 1d e0 00 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 09 
+          starfive,pin-gpio-dout:
+            00 00 00 00 
+          starfive,pin-gpio-doen:
+            00 00 00 2a 
+          starfive,pin-gpio-din:
+            00 00 00 4f 
+        Node 0x3174: i2c5-pins-sda
+          starfive,pins:
+            00 00 00 14 
+          starfive,pinmux:
+            00 00 02 a0 00 00 00 00 00 00 00 07 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 09 
+          starfive,pin-gpio-dout:
+            00 00 00 00 
+          starfive,pin-gpio-doen:
+            00 00 00 2b 
+          starfive,pin-gpio-din:
+            00 00 00 50 
+      Node 0x31fc: i2c6-pins
+        phandle:
+          00 00 00 28 
+        Node 0x321c: i2c6-pins-scl
+          starfive,pins:
+            00 00 00 10 
+          starfive,pinmux:
+            00 00 02 9c 00 00 00 14 00 70 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 09 
+          starfive,pin-gpio-dout:
+            00 00 00 00 
+          starfive,pin-gpio-doen:
+            00 00 00 2e 
+          starfive,pin-gpio-din:
+            00 00 00 56 
+        Node 0x32a0: i2c6-pins-sda
+          starfive,pins:
+            00 00 00 11 
+          starfive,pinmux:
+            00 00 02 9c 00 00 00 17 03 80 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 09 
+          starfive,pin-gpio-dout:
+            00 00 00 00 
+          starfive,pin-gpio-doen:
+            00 00 00 2f 
+          starfive,pin-gpio-din:
+            00 00 00 57 
+      Node 0x3328: csi-pins
+        phandle:
+          00 00 00 2a 
+        Node 0x3348: csi-pins-pwdn
+          starfive,pins:
+            00 00 00 12 
+          starfive,pinmux:
+            00 00 02 9c 00 00 00 1a 1c 00 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-dout:
+            00 00 00 01 
+          starfive,pin-gpio-doen:
+            00 00 00 00 
+      Node 0x33c0: pwmdac0-pins
+        phandle:
+          00 00 00 33 
+        Node 0x33e4: pwmdac0-pins-left
+          starfive,pins:
+            00 00 00 21 
+          starfive,pinmux:
+            00 00 02 a4 00 00 00 09 00 00 0e 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 09 
+          starfive,pin-gpio-dout:
+            00 00 00 1c 
+          starfive,pin-gpio-doen:
+            00 00 00 00 
+        Node 0x345c: pwmdac0-pins-right
+          starfive,pins:
+            00 00 00 22 
+          starfive,pinmux:
+            00 00 02 a4 00 00 00 0c 00 00 70 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 09 
+          starfive,pin-gpio-dout:
+            00 00 00 1d 
+          starfive,pin-gpio-doen:
+            00 00 00 00 
+      Node 0x34d8: pwm-pins
+        phandle:
+          00 00 00 38 
+        Node 0x34f8: pwm_ch0-pins
+          starfive,pins:
+            00 00 00 2e 
+          starfive,pinmux:
+            00 00 02 a8 00 00 00 0f 00 03 80 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-dout:
+            00 00 00 18 
+          starfive,pin-gpio-doen:
+            00 00 00 09 
+        Node 0x356c: pwm_ch1-pins
+          starfive,pins:
+            00 00 00 3b 
+          starfive,pinmux:
+            00 00 02 ac 00 00 00 12 00 1c 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-dout:
+            00 00 00 19 
+          starfive,pin-gpio-doen:
+            00 00 00 0a 
+      Node 0x35e4: ssp0-pins
+        phandle:
+          00 00 00 39 
+        Node 0x3604: ssp0-pins_tx
+          starfive,pins:
+            00 00 00 34 
+          starfive,pinmux:
+            00 00 02 ac 00 00 00 00 00 00 00 03 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-dout:
+            00 00 00 20 
+          starfive,pin-gpio-doen:
+            00 00 00 00 
+        Node 0x3678: ssp0-pins_rx
+          starfive,pins:
+            00 00 00 35 
+          starfive,pinmux:
+            00 00 02 ac 00 00 00 02 00 00 00 0c 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-doen:
+            00 00 00 01 
+          starfive,pin-gpio-din:
+            00 00 00 1c 
+        Node 0x36ec: ssp0-pins_clk
+          starfive,pins:
+            00 00 00 30 
+          starfive,pinmux:
+            00 00 02 a8 00 00 00 15 00 e0 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-dout:
+            00 00 00 1e 
+          starfive,pin-gpio-doen:
+            00 00 00 00 
+        Node 0x3760: ssp0-pins_cs
+          starfive,pins:
+            00 00 00 31 
+          starfive,pinmux:
+            00 00 02 a8 00 00 00 18 07 00 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-dout:
+            00 00 00 1f 
+          starfive,pin-gpio-doen:
+            00 00 00 00 
+      Node 0x37d8: pcie0_perst_default
+        phandle:
+          00 00 00 3c 
+        Node 0x3800: perst-pins
+          starfive,pins:
+            00 00 00 1a 
+          starfive,pinmux:
+            00 00 02 a0 00 00 00 12 00 1c 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-dout:
+            00 00 00 01 
+          starfive,pin-gpio-doen:
+            00 00 00 00 
+      Node 0x3874: pcie0_perst_active
+        phandle:
+          00 00 00 3d 
+        Node 0x389c: perst-pins
+          starfive,pins:
+            00 00 00 1a 
+          starfive,pinmux:
+            00 00 02 a0 00 00 00 12 00 1c 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-dout:
+            00 00 00 00 
+          starfive,pin-gpio-doen:
+            00 00 00 00 
+      Node 0x3910: pcie0_wake_default
+        phandle:
+          00 00 00 3a 
+        Node 0x3938: wake-pins
+          starfive,pins:
+            00 00 00 20 
+          starfive,pinmux:
+            00 00 02 a4 00 00 00 06 00 00 01 c0 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-doen:
+            00 00 00 01 
+      Node 0x399c: pcie0_clkreq_default
+        phandle:
+          00 00 00 3b 
+        Node 0x39c8: clkreq-pins
+          starfive,pins:
+            00 00 00 1b 
+          starfive,pinmux:
+            00 00 02 a0 00 00 00 15 00 e0 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-doen:
+            00 00 00 01 
+      Node 0x3a2c: pcie1_perst_default
+        phandle:
+          00 00 00 40 
+        Node 0x3a54: perst-pins
+          starfive,pins:
+            00 00 00 1c 
+          starfive,pinmux:
+            00 00 02 a0 00 00 00 18 07 00 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-dout:
+            00 00 00 01 
+          starfive,pin-gpio-doen:
+            00 00 00 00 
+      Node 0x3ac8: pcie1_perst_active
+        phandle:
+          00 00 00 41 
+        Node 0x3af0: perst-pins
+          starfive,pins:
+            00 00 00 1c 
+          starfive,pinmux:
+            00 00 02 a0 00 00 00 18 07 00 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-dout:
+            00 00 00 00 
+          starfive,pin-gpio-doen:
+            00 00 00 00 
+      Node 0x3b64: pcie1_wake_default
+        phandle:
+          00 00 00 3e 
+        Node 0x3b8c: wake-pins
+          starfive,pins:
+            00 00 00 15 
+          starfive,pinmux:
+            00 00 02 a0 00 00 00 03 00 00 00 38 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-doen:
+            00 00 00 01 
+      Node 0x3bf0: pcie1_clkreq_default
+        phandle:
+          00 00 00 3f 
+        Node 0x3c1c: clkreq-pins
+          starfive,pins:
+            00 00 00 1d 
+          starfive,pinmux:
+            00 00 02 a0 00 00 00 1b 38 00 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-doen:
+            00 00 00 01 
+      Node 0x3c80: usb-pins
+        Node 0x3c90: drive-vbus-pin
+          starfive,pins:
+            00 00 00 19 
+          starfive,pinmux:
+            00 00 02 a0 00 00 00 0f 00 03 80 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-dout:
+            00 00 00 07 
+          starfive,pin-gpio-doen:
+            00 00 00 00 
+      Node 0x3d08: i2srx-pins
+        phandle:
+          00 00 00 35 
+        Node 0x3d28: i2srx-pins0
+          starfive,pins:
+            00 00 00 3d 
+          starfive,pinmux:
+            00 00 02 ac 00 00 00 18 07 00 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-doen:
+            00 00 00 01 
+          starfive,pin-gpio-din:
+            00 00 00 17 
+      Node 0x3d9c: i2s-clk0
+        phandle:
+          00 00 00 34 
+        Node 0x3dbc: i2s-clk0_bclk
+          starfive,pins:
+            00 00 00 26 
+          starfive,pinmux:
+            00 00 02 a4 00 00 00 17 03 80 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-din:
+            00 00 00 21 00 00 00 1f 
+          starfive,pin-gpio-doen:
+            00 00 00 01 
+        Node 0x3e34: i2s-clk0_lrclk
+          starfive,pins:
+            00 00 00 3f 
+          starfive,pinmux:
+            00 00 02 ac 00 00 00 1e c0 00 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-din:
+            00 00 00 22 00 00 00 20 
+          starfive,pin-gpio-doen:
+            00 00 00 01 
+      Node 0x3eb0: i2stx-pins
+        phandle:
+          00 00 00 37 
+        Node 0x3ed0: i2stx-pins0
+          starfive,pins:
+            00 00 00 2c 
+          starfive,pinmux:
+            00 00 02 a8 00 00 00 09 00 00 0e 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-dout:
+            00 00 00 45 
+          starfive,pin-gpio-doen:
+            00 00 00 00 
+      Node 0x3f44: uart0-pins
+        phandle:
+          00 00 00 1f 
+        Node 0x3f64: uart0-pins-tx
+          starfive,pins:
+            00 00 00 05 
+          starfive,pin-ioconfig:
+            00 00 00 07 
+          starfive,pin-gpio-dout:
+            00 00 00 14 
+          starfive,pin-gpio-doen:
+            00 00 00 00 
+        Node 0x3fbc: uart0-pins-rx
+          starfive,pins:
+            00 00 00 06 
+          starfive,pinmux:
+            00 00 02 b0 00 00 00 00 00 00 00 03 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 09 
+          starfive,pin-gpio-doen:
+            00 00 00 01 
+          starfive,pin-gpio-din:
+            00 00 00 0e 
+      Node 0x4034: i2c2-pins
+        phandle:
+          00 00 00 23 
+        Node 0x4054: i2c2-pins-scl
+          starfive,pins:
+            00 00 00 03 
+          starfive,pin-ioconfig:
+            00 00 00 09 
+          starfive,pin-gpio-dout:
+            00 00 00 00 
+          starfive,pin-gpio-doen:
+            00 00 00 1e 
+          starfive,pin-gpio-din:
+            00 00 00 3b 
+        Node 0x40bc: i2c2-pins-sda
+          starfive,pins:
+            00 00 00 02 
+          starfive,pin-ioconfig:
+            00 00 00 09 
+          starfive,pin-gpio-dout:
+            00 00 00 00 
+          starfive,pin-gpio-doen:
+            00 00 00 1f 
+          starfive,pin-gpio-din:
+            00 00 00 3c 
+      Node 0x4128: mmc0-pins
+        phandle:
+          00 00 00 2c 
+        Node 0x4148: mmc0-pins-rest
+          starfive,pins:
+            00 00 00 3e 
+          starfive,pinmux:
+            00 00 02 ac 00 00 00 1b 38 00 00 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 09 
+          starfive,pin-gpio-dout:
+            00 00 00 13 
+          starfive,pin-gpio-doen:
+            00 00 00 00 
+      Node 0x41c0: sdcard1-pins
+        phandle:
+          00 00 00 2d 
+        Node 0x41e4: sdcard1-pins0
+          starfive,pins:
+            00 00 00 0a 
+          starfive,pinmux:
+            00 00 02 9c 00 00 00 02 00 00 00 1c 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 0f 
+          starfive,pin-gpio-dout:
+            00 00 00 37 
+          starfive,pin-gpio-doen:
+            00 00 00 00 
+        Node 0x4258: sdcard1-pins1
+          starfive,pins:
+            00 00 00 09 
+          starfive,pinmux:
+            00 00 02 b0 00 00 00 08 00 00 07 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 0f 
+          starfive,pin-gpio-dout:
+            00 00 00 39 
+          starfive,pin-gpio-doen:
+            00 00 00 13 
+          starfive,pin-gpio-din:
+            00 00 00 2c 
+        Node 0x42dc: sdcard1-pins2
+          starfive,pins:
+            00 00 00 0b 
+          starfive,pinmux:
+            00 00 02 9c 00 00 00 05 00 00 00 e0 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 0f 
+          starfive,pin-gpio-dout:
+            00 00 00 3a 
+          starfive,pin-gpio-doen:
+            00 00 00 14 
+          starfive,pin-gpio-din:
+            00 00 00 2d 
+        Node 0x4360: sdcard1-pins3
+          starfive,pins:
+            00 00 00 0c 
+          starfive,pinmux:
+            00 00 02 9c 00 00 00 08 00 00 07 00 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 0f 
+          starfive,pin-gpio-dout:
+            00 00 00 3b 
+          starfive,pin-gpio-doen:
+            00 00 00 15 
+          starfive,pin-gpio-din:
+            00 00 00 2e 
+        Node 0x43e4: sdcard1-pins4
+          starfive,pins:
+            00 00 00 07 
+          starfive,pinmux:
+            00 00 02 b0 00 00 00 02 00 00 00 1c 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 0f 
+          starfive,pin-gpio-dout:
+            00 00 00 3c 
+          starfive,pin-gpio-doen:
+            00 00 00 16 
+          starfive,pin-gpio-din:
+            00 00 00 2f 
+        Node 0x4468: sdcard1-pins5
+          starfive,pins:
+            00 00 00 08 
+          starfive,pinmux:
+            00 00 02 b0 00 00 00 05 00 00 00 e0 00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 0f 
+          starfive,pin-gpio-dout:
+            00 00 00 3d 
+          starfive,pin-gpio-doen:
+            00 00 00 17 
+          starfive,pin-gpio-din:
+            00 00 00 30 
+      Node 0x44f0: inno_hdmi-pins
+        phandle:
+          00 00 00 4f 
+        Node 0x4514: inno_hdmi-scl
+          starfive,pins:
+            00 00 00 00 
+          starfive,pin-ioconfig:
+            00 00 00 09 
+          starfive,pin-gpio-dout:
+            00 00 00 0b 
+          starfive,pin-gpio-doen:
+            00 00 00 03 
+          starfive,pin-gpio-din:
+            00 00 00 06 
+        Node 0x457c: inno_hdmi-sda
+          starfive,pins:
+            00 00 00 01 
+          starfive,pin-ioconfig:
+            00 00 00 09 
+          starfive,pin-gpio-dout:
+            00 00 00 0c 
+          starfive,pin-gpio-doen:
+            00 00 00 04 
+          starfive,pin-gpio-din:
+            00 00 00 07 
+        Node 0x45e4: inno_hdmi-cec-pins
+          starfive,pins:
+            00 00 00 0e 
+          starfive,pin-ioconfig:
+            00 00 00 09 
+          starfive,pin-gpio-doen:
+            00 00 00 02 
+          starfive,pin-gpio-dout:
+            00 00 00 0a 
+          starfive,pin-gpio-din:
+            00 00 00 05 
+        Node 0x4650: inno_hdmi-hpd-pins
+          starfive,pins:
+            00 00 00 0f 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-doen:
+            00 00 00 01 
+          starfive,pin-gpio-din:
+            00 00 00 08 
+      Node 0x46b0: mclk_ext_pins
+        phandle:
+          00 00 00 36 
+        Node 0x46d4: mclk_ext_pins
+          starfive,pins:
+            00 00 00 04 
+          starfive,pin-ioconfig:
+            00 00 00 01 
+          starfive,pin-gpio-din:
+            00 00 00 1e 
+          starfive,pin-gpio-doen:
+            00 00 00 01 
+    Node 0x4734: gpio@17020000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 61 6f 6e 2d 
+        70 69 6e 63 74 72 6c 00 
+        'starfive,jh7110-aon-pinctrl'
+      reg:
+        00 00 00 00 17 02 00 00 00 00 00 00 00 01 00 00 
+      reg-names:
+        63 6f 6e 74 72 6f 6c 00 
+        'control'
+      resets:
+        00 00 00 1c 00 00 00 a2 
+      interrupts:
+        00 00 00 55 
+      interrupt-controller:
+      #gpio-cells:
+        00 00 00 02 
+      ngpios:
+        00 00 00 04 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      phandle:
+        00 00 00 58 
+    Node 0x4818: tmon@120e0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 74 65 6d 70 
+        00 
+        'starfive,jh7110-temp'
+      reg:
+        00 00 00 00 12 0e 00 00 00 00 00 00 00 01 00 00 
+      interrupts:
+        00 00 00 51 
+      clocks:
+        00 00 00 1b 00 00 00 82 00 00 00 1b 00 00 00 81 
+      clock-names:
+        73 65 6e 73 65 00 62 75 73 00 
+      resets:
+        00 00 00 1c 00 00 00 7c 00 00 00 1c 00 00 00 7b 
+      reset-names:
+        73 65 6e 73 65 00 62 75 73 00 
+      #thermal-sensor-cells:
+        00 00 00 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      phandle:
+        00 00 00 20 
+    Node 0x491c: thermal-zones
+      Node 0x4930: cpu-thermal
+        polling-delay-passive:
+          00 00 00 fa 
+        polling-delay:
+          00 00 3a 98 
+        thermal-sensors:
+          00 00 00 20 
+        Node 0x4970: cooling-maps
+        Node 0x4988: trips
+          Node 0x4994: cpu_alert0
+            temperature:
+              00 01 24 f8 
+            hysteresis:
+              00 00 07 d0 
+            type:
+              70 61 73 73 69 76 65 00 
+              'passive'
+          Node 0x49dc: cpu_crit
+            temperature:
+              00 01 5f 90 
+            hysteresis:
+              00 00 07 d0 
+            type:
+              63 72 69 74 69 63 61 6c 00 
+              'critical'
+    Node 0x4a34: trng@1600C000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 74 72 6e 67 
+        00 
+        'starfive,jh7110-trng'
+      reg:
+        00 00 00 00 16 00 c0 00 00 00 00 00 00 00 40 00 
+      clocks:
+        00 00 00 1b 00 00 00 cd 00 00 00 1b 00 00 00 ce 
+      clock-names:
+        68 63 6c 6b 00 61 68 62 00 
+      resets:
+        00 00 00 1c 00 00 00 83 
+      interrupts:
+        00 00 00 1e 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+    Node 0x4af8: sec_dma@16008000
+      compatible:
+        61 72 6d 2c 70 6c 30 38 30 00 61 72 6d 2c 70 72 69 6d 65 63 
+        65 6c 6c 00 
+      arm,primecell-periphid:
+        00 04 10 80 
+      reg:
+        00 00 00 00 16 00 80 00 00 00 00 00 00 00 40 00 
+      reg-names:
+        73 65 63 5f 64 6d 61 00 
+        'sec_dma'
+      interrupts:
+        00 00 00 1d 
+      clocks:
+        00 00 00 1b 00 00 00 cd 00 00 00 1b 00 00 00 ce 
+      clock-names:
+        73 65 63 5f 68 63 6c 6b 00 61 70 62 5f 70 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 83 
+      reset-names:
+        73 65 63 5f 68 72 65 00 
+        'sec_hre'
+      lli-bus-interface-ahb1:
+      mem-bus-interface-ahb1:
+      memcpy-burst-size:
+        00 00 01 00 
+      memcpy-bus-width:
+        00 00 00 20 
+      #dma-cells:
+        00 00 00 02 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      phandle:
+        00 00 00 21 
+    Node 0x4c58: crypto@16000000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 73 65 63 00 
+        'starfive,jh7110-sec'
+      reg:
+        00 00 00 00 16 00 00 00 00 00 00 00 00 00 40 00 00 00 00 00 
+        16 00 80 00 00 00 00 00 00 00 40 00 
+      reg-names:
+        73 65 63 72 65 67 00 73 65 63 64 6d 61 00 
+      interrupts:
+        00 00 00 1c 00 00 00 1d 
+      interrupt-names:
+        73 65 63 69 72 71 00 64 6d 61 69 72 71 00 
+      clocks:
+        00 00 00 1b 00 00 00 cd 00 00 00 1b 00 00 00 ce 
+      clock-names:
+        73 65 63 5f 68 63 6c 6b 00 73 65 63 5f 61 68 62 00 
+      resets:
+        00 00 00 1c 00 00 00 83 
+      reset-names:
+        73 65 63 5f 68 72 65 00 
+        'sec_hre'
+      enable-side-channel-mitigation:
+        74 72 75 65 00 
+        'true'
+      enable-dma:
+        74 72 75 65 00 
+        'true'
+      dmas:
+        00 00 00 21 00 00 00 01 00 00 00 02 00 00 00 21 00 00 00 00 
+        00 00 00 02 
+      dma-names:
+        73 65 63 5f 6d 00 73 65 63 5f 70 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+    Node 0x4de4: i2c@10030000
+      compatible:
+        73 6e 70 73 2c 64 65 73 69 67 6e 77 61 72 65 2d 69 32 63 00 
+        'snps,designware-i2c'
+      reg:
+        00 00 00 00 10 03 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 01 25 00 00 00 1b 00 00 00 8a 
+      clock-names:
+        72 65 66 00 70 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 4c 
+      interrupts:
+        00 00 00 23 
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      clock-frequency:
+        00 01 86 a0 
+      i2c-sda-hold-time-ns:
+        00 00 01 2c 
+      i2c-sda-falling-time-ns:
+        00 00 01 fe 
+      i2c-scl-falling-time-ns:
+        00 00 01 fe 
+      auto_calc_scl_lhcnt:
+      pinctrl-names:
+        64 65 66 61 75 6c 74 00 
+        'default'
+      pinctrl-0:
+        00 00 00 22 
+    Node 0x4f34: i2c@10040000
+      compatible:
+        73 6e 70 73 2c 64 65 73 69 67 6e 77 61 72 65 2d 69 32 63 00 
+        'snps,designware-i2c'
+      reg:
+        00 00 00 00 10 04 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 01 26 00 00 00 1b 00 00 00 8b 
+      clock-names:
+        72 65 66 00 70 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 4d 
+      interrupts:
+        00 00 00 24 
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x5018: i2c@10050000
+      compatible:
+        73 6e 70 73 2c 64 65 73 69 67 6e 77 61 72 65 2d 69 32 63 00 
+        'snps,designware-i2c'
+      reg:
+        00 00 00 00 10 05 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 01 27 00 00 00 1b 00 00 00 8c 
+      clock-names:
+        72 65 66 00 70 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 4e 
+      interrupts:
+        00 00 00 25 
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      clock-frequency:
+        00 01 86 a0 
+      i2c-sda-hold-time-ns:
+        00 00 01 2c 
+      i2c-sda-falling-time-ns:
+        00 00 01 fe 
+      i2c-scl-falling-time-ns:
+        00 00 01 fe 
+      auto_calc_scl_lhcnt:
+      pinctrl-names:
+        64 65 66 61 75 6c 74 00 
+        'default'
+      pinctrl-0:
+        00 00 00 23 
+      Node 0x5164: seeed_plane_i2c@45
+        compatible:
+          73 65 65 65 64 5f 70 61 6e 65 6c 00 
+          'seeed_panel'
+        reg:
+          00 00 00 45 
+        Node 0x51a4: port
+          Node 0x51b0: endpoint
+            remote-endpoint:
+              00 00 00 24 
+            phandle:
+              00 00 00 4c 
+      Node 0x51ec: panel_radxa@19
+        compatible:
+          73 74 61 72 66 69 76 65 5f 6a 61 64 61 72 64 00 
+          'starfive_jadard'
+        reg:
+          00 00 00 19 
+        reset-gpio:
+          00 00 00 25 00 00 00 17 00 00 00 00 
+        enable-gpio:
+          00 00 00 25 00 00 00 16 00 00 00 00 
+        Node 0x525c: port
+          Node 0x5268: endpoint
+            remote-endpoint:
+              00 00 00 26 
+            phandle:
+              00 00 00 4d 
+    Node 0x52a8: i2c@12030000
+      compatible:
+        73 6e 70 73 2c 64 65 73 69 67 6e 77 61 72 65 2d 69 32 63 00 
+        'snps,designware-i2c'
+      reg:
+        00 00 00 00 12 03 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 01 28 00 00 00 1b 00 00 00 8d 
+      clock-names:
+        72 65 66 00 70 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 4f 
+      interrupts:
+        00 00 00 30 
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x538c: i2c@12040000
+      compatible:
+        73 6e 70 73 2c 64 65 73 69 67 6e 77 61 72 65 2d 69 32 63 00 
+        'snps,designware-i2c'
+      reg:
+        00 00 00 00 12 04 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 01 29 00 00 00 1b 00 00 00 8e 
+      clock-names:
+        72 65 66 00 70 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 50 
+      interrupts:
+        00 00 00 31 
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x5470: i2c@12050000
+      compatible:
+        73 6e 70 73 2c 64 65 73 69 67 6e 77 61 72 65 2d 69 32 63 00 
+        'snps,designware-i2c'
+      reg:
+        00 00 00 00 12 05 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 01 2a 00 00 00 1b 00 00 00 8f 
+      clock-names:
+        72 65 66 00 70 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 51 
+      interrupts:
+        00 00 00 32 
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      clock-frequency:
+        00 01 86 a0 
+      i2c-sda-hold-time-ns:
+        00 00 01 2c 
+      i2c-sda-falling-time-ns:
+        00 00 01 fe 
+      i2c-scl-falling-time-ns:
+        00 00 01 fe 
+      auto_calc_scl_lhcnt:
+      pinctrl-names:
+        64 65 66 61 75 6c 74 00 
+        'default'
+      pinctrl-0:
+        00 00 00 27 
+      Node 0x55bc: eeprom@50
+        compatible:
+          61 74 6d 65 6c 2c 32 34 63 30 34 00 
+          'atmel,24c04'
+        reg:
+          00 00 00 50 
+        pagesize:
+          00 00 00 10 
+      Node 0x5608: axp15060_reg@36
+        compatible:
+          73 74 66 2c 61 78 70 31 35 30 36 30 2d 72 65 67 75 6c 61 74 
+          6f 72 00 
+          'stf,axp15060-regulator'
+        reg:
+          00 00 00 36 
+        Node 0x5650: regulators
+          Node 0x5660: ALDO1
+            regulator-boot-on:
+            regulator-compatible:
+              6d 69 70 69 5f 30 70 39 00 
+              'mipi_0p9'
+            regulator-name:
+              6d 69 70 69 5f 30 70 39 00 
+              'mipi_0p9'
+            regulator-min-microvolt:
+              00 0d bb a0 
+            regulator-max-microvolt:
+              00 0d bb a0 
+          Node 0x56cc: ALDO5
+            regulator-boot-on:
+            regulator-compatible:
+              68 64 6d 69 5f 30 70 39 00 
+              'hdmi_0p9'
+            regulator-name:
+              68 64 6d 69 5f 30 70 39 00 
+              'hdmi_0p9'
+            regulator-min-microvolt:
+              00 0d bb a0 
+            regulator-max-microvolt:
+              00 0d bb a0 
+          Node 0x5738: ALDO3
+            regulator-boot-on:
+            regulator-compatible:
+              68 64 6d 69 5f 31 70 38 00 
+              'hdmi_1p8'
+            regulator-name:
+              68 64 6d 69 5f 31 70 38 00 
+              'hdmi_1p8'
+            regulator-min-microvolt:
+              00 1b 77 40 
+            regulator-max-microvolt:
+              00 1b 77 40 
+          Node 0x57a4: DCDC2
+            regulator-boot-on:
+            regulator-always-on:
+            regulator-compatible:
+              63 70 75 5f 76 64 64 00 
+              'cpu_vdd'
+            regulator-name:
+              63 70 75 5f 76 64 64 00 
+              'cpu_vdd'
+            regulator-min-microvolt:
+              00 07 a1 20 
+            regulator-max-microvolt:
+              00 17 7f a0 
+    Node 0x5820: i2c@12060000
+      compatible:
+        73 6e 70 73 2c 64 65 73 69 67 6e 77 61 72 65 2d 69 32 63 00 
+        'snps,designware-i2c'
+      reg:
+        00 00 00 00 12 06 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 01 2b 00 00 00 1b 00 00 00 90 
+      clock-names:
+        72 65 66 00 70 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 52 
+      interrupts:
+        00 00 00 33 
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      clock-frequency:
+        00 01 86 a0 
+      i2c-sda-hold-time-ns:
+        00 00 01 2c 
+      i2c-sda-falling-time-ns:
+        00 00 01 fe 
+      i2c-scl-falling-time-ns:
+        00 00 01 fe 
+      auto_calc_scl_lhcnt:
+      pinctrl-names:
+        64 65 66 61 75 6c 74 00 
+        'default'
+      pinctrl-0:
+        00 00 00 28 
+      Node 0x596c: imx219@10
+        compatible:
+          73 6f 6e 79 2c 69 6d 78 32 31 39 00 
+          'sony,imx219'
+        reg:
+          00 00 00 10 
+        clocks:
+          00 00 00 29 
+        clock-names:
+          78 63 6c 6b 00 
+          'xclk'
+        pinctrl-names:
+          64 65 66 61 75 6c 74 00 
+          'default'
+        pinctrl-0:
+          00 00 00 2a 
+        rotation:
+          00 00 00 00 
+        orientation:
+          00 00 00 01 
+        Node 0x5a0c: port
+          Node 0x5a18: endpoint
+            remote-endpoint:
+              00 00 00 2b 
+            bus-type:
+              00 00 00 04 
+            clock-lanes:
+              00 00 00 04 
+            data-lanes:
+              00 00 00 00 00 00 00 01 
+            lane-polarities:
+              00 00 00 00 00 00 00 00 00 00 00 00 
+            link-frequencies:
+              00 00 00 00 1b 2e 02 00 
+            phandle:
+              00 00 00 30 
+    Node 0x5ab8: sdio0@16010000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 73 64 69 6f 
+        00 
+        'starfive,jh7110-sdio'
+      reg:
+        00 00 00 00 16 01 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 00 5b 00 00 00 1b 00 00 00 5d 
+      clock-names:
+        62 69 75 00 63 69 75 00 
+      resets:
+        00 00 00 1c 00 00 00 40 
+      reset-names:
+        72 65 73 65 74 00 
+        'reset'
+      interrupts:
+        00 00 00 4a 
+      fifo-depth:
+        00 00 00 20 
+      fifo-watermark-aligned:
+      data-addr:
+        00 00 00 00 
+      starfive,sys-syscon:
+        00 00 00 17 00 00 00 14 00 00 00 1a 7c 00 00 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      max-frequency:
+        05 f5 e1 00 
+        '\^E\M-u\M-a'
+      card-detect-delay:
+        00 00 01 2c 
+      bus-width:
+        00 00 00 08 
+      cap-mmc-highspeed:
+      mmc-ddr-1_8v:
+      mmc-hs200-1_8v:
+      non-removable:
+      cap-mmc-hw-reset:
+      post-power-on-delay-ms:
+        00 00 00 c8 
+      pinctrl-names:
+        64 65 66 61 75 6c 74 00 
+        'default'
+      pinctrl-0:
+        00 00 00 2c 
+    Node 0x5c74: sdio1@16020000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 73 64 69 6f 
+        00 
+        'starfive,jh7110-sdio'
+      reg:
+        00 00 00 00 16 02 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 00 5c 00 00 00 1b 00 00 00 5e 
+      clock-names:
+        62 69 75 00 63 69 75 00 
+      resets:
+        00 00 00 1c 00 00 00 41 
+      reset-names:
+        72 65 73 65 74 00 
+        'reset'
+      interrupts:
+        00 00 00 4b 
+      fifo-depth:
+        00 00 00 20 
+      fifo-watermark-aligned:
+      data-addr:
+        00 00 00 00 
+      starfive,sys-syscon:
+        00 00 00 17 00 00 00 9c 00 00 00 01 00 00 00 3e 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      max-frequency:
+        05 f5 e1 00 
+        '\^E\M-u\M-a'
+      card-detect-delay:
+        00 00 01 2c 
+      bus-width:
+        00 00 00 04 
+      no-sdio:
+      no-mmc:
+      broken-cd:
+      cap-sd-highspeed:
+      post-power-on-delay-ms:
+        00 00 00 c8 
+      pinctrl-names:
+        64 65 66 61 75 6c 74 00 
+        'default'
+      pinctrl-0:
+        00 00 00 2d 
+    Node 0x5e24: vin_sysctl@19800000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 76 69 6e 00 
+        'starfive,jh7110-vin'
+      reg:
+        00 00 00 00 19 80 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+        19 81 00 00 00 00 00 00 00 01 00 00 00 00 00 00 19 82 00 00 
+        00 00 00 00 00 01 00 00 00 00 00 00 19 84 00 00 00 00 00 00 
+        00 01 00 00 00 00 00 00 19 87 00 00 00 00 00 00 00 03 00 00 
+        00 00 00 00 11 84 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+        17 03 00 00 00 00 00 00 00 01 00 00 00 00 00 00 13 02 00 00 
+        00 00 00 00 00 01 00 00 
+      reg-names:
+        63 73 69 32 72 78 00 76 63 6c 6b 00 76 72 73 74 00 73 63 74 
+        72 6c 00 69 73 70 00 74 72 73 74 00 70 6d 75 00 73 79 73 63 
+        72 67 00 
+      clocks:
+        00 00 00 2e 00 00 00 00 00 00 00 2e 00 00 00 06 00 00 00 2e 
+        00 00 00 07 00 00 00 2e 00 00 00 0d 00 00 00 2e 00 00 00 02 
+        00 00 00 2e 00 00 00 0c 00 00 00 2e 00 00 00 01 00 00 00 2e 
+        00 00 00 08 00 00 00 2e 00 00 00 09 00 00 00 2e 00 00 00 0a 
+        00 00 00 2e 00 00 00 0b 00 00 00 2e 00 00 00 03 00 00 00 2e 
+        00 00 00 04 00 00 00 2e 00 00 00 05 00 00 00 1b 00 00 00 33 
+        00 00 00 1b 00 00 00 34 
+      clock-names:
+        63 6c 6b 5f 61 70 62 5f 66 75 6e 63 00 63 6c 6b 5f 70 63 6c 
+        6b 00 63 6c 6b 5f 73 79 73 5f 63 6c 6b 00 63 6c 6b 5f 77 72 
+        61 70 70 65 72 5f 63 6c 6b 5f 63 00 63 6c 6b 5f 64 76 70 5f 
+        69 6e 76 00 63 6c 6b 5f 61 78 69 77 72 00 63 6c 6b 5f 6d 69 
+        70 69 5f 72 78 30 5f 70 78 6c 00 63 6c 6b 5f 70 69 78 65 6c 
+        5f 63 6c 6b 5f 69 66 30 00 63 6c 6b 5f 70 69 78 65 6c 5f 63 
+        6c 6b 5f 69 66 31 00 63 6c 6b 5f 70 69 78 65 6c 5f 63 6c 6b 
+        5f 69 66 32 00 63 6c 6b 5f 70 69 78 65 6c 5f 63 6c 6b 5f 69 
+        66 33 00 63 6c 6b 5f 6d 33 31 64 70 68 79 5f 63 66 67 63 6c 
+        6b 5f 69 6e 00 63 6c 6b 5f 6d 33 31 64 70 68 79 5f 72 65 66 
+        63 6c 6b 5f 69 6e 00 63 6c 6b 5f 6d 33 31 64 70 68 79 5f 74 
+        78 63 6c 6b 65 73 63 5f 6c 61 6e 30 00 63 6c 6b 5f 69 73 70 
+        63 6f 72 65 5f 32 78 00 63 6c 6b 5f 69 73 70 5f 61 78 69 00 
+      resets:
+        00 00 00 1c 00 00 00 c0 00 00 00 1c 00 00 00 c1 00 00 00 1c 
+        00 00 00 c4 00 00 00 1c 00 00 00 c9 00 00 00 1c 00 00 00 ca 
+        00 00 00 1c 00 00 00 cb 00 00 00 1c 00 00 00 c5 00 00 00 1c 
+        00 00 00 c6 00 00 00 1c 00 00 00 c7 00 00 00 1c 00 00 00 c8 
+        00 00 00 1c 00 00 00 c2 00 00 00 1c 00 00 00 c3 00 00 00 1c 
+        00 00 00 29 00 00 00 1c 00 00 00 2a 
+      reset-names:
+        72 73 74 5f 77 72 61 70 70 65 72 5f 70 00 72 73 74 5f 77 72 
+        61 70 70 65 72 5f 63 00 72 73 74 5f 70 63 6c 6b 00 72 73 74 
+        5f 73 79 73 5f 63 6c 6b 00 72 73 74 5f 61 78 69 72 64 00 72 
+        73 74 5f 61 78 69 77 72 00 72 73 74 5f 70 69 78 65 6c 5f 63 
+        6c 6b 5f 69 66 30 00 72 73 74 5f 70 69 78 65 6c 5f 63 6c 6b 
+        5f 69 66 31 00 72 73 74 5f 70 69 78 65 6c 5f 63 6c 6b 5f 69 
+        66 32 00 72 73 74 5f 70 69 78 65 6c 5f 63 6c 6b 5f 69 66 33 
+        00 72 73 74 5f 6d 33 31 64 70 68 79 5f 68 77 00 72 73 74 5f 
+        6d 33 31 64 70 68 79 5f 62 30 39 5f 61 6c 77 61 79 73 5f 6f 
+        6e 00 72 73 74 5f 69 73 70 5f 74 6f 70 5f 6e 00 72 73 74 5f 
+        69 73 70 5f 74 6f 70 5f 61 78 69 00 
+      starfive,aon-syscon:
+        00 00 00 2f 00 00 00 00 
+      power-domains:
+        00 00 00 1d 00 00 00 05 
+      interrupts:
+        00 00 00 5c 00 00 00 57 00 00 00 58 00 00 00 59 00 00 00 5a 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      Node 0x6274: ports
+        #address-cells:
+          00 00 00 01 
+        #size-cells:
+          00 00 00 00 
+        Node 0x62a0: port@1
+          reg:
+            00 00 00 01 
+          #address-cells:
+            00 00 00 01 
+          #size-cells:
+            00 00 00 00 
+          Node 0x62dc: endpoint@0
+            reg:
+              00 00 00 00 
+            remote-endpoint:
+              00 00 00 30 
+            bus-type:
+              00 00 00 04 
+            clock-lanes:
+              00 00 00 04 
+            data-lanes:
+              00 00 00 00 00 00 00 01 
+            lane-polarities:
+              00 00 00 00 00 00 00 00 00 00 00 00 
+            status:
+              6f 6b 61 79 00 
+              'okay'
+            phandle:
+              00 00 00 2b 
+    Node 0x638c: jpu@11900000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 70 75 00 
+        'starfive,jpu'
+      reg:
+        00 00 00 00 13 09 00 00 00 00 00 00 00 00 03 00 
+      interrupts:
+        00 00 00 0e 
+      clocks:
+        00 00 00 1b 00 00 00 42 00 00 00 1b 00 00 00 43 00 00 00 1b 
+        00 00 00 44 00 00 00 1b 00 00 00 4c 
+      clock-names:
+        61 78 69 5f 63 6c 6b 00 63 6f 72 65 5f 63 6c 6b 00 61 70 62 
+        5f 63 6c 6b 00 6e 6f 63 5f 62 75 73 00 
+      resets:
+        00 00 00 1c 00 00 00 2c 00 00 00 1c 00 00 00 2d 00 00 00 1c 
+        00 00 00 2e 
+      reset-names:
+        72 73 74 5f 61 78 69 00 72 73 74 5f 63 6f 72 65 00 72 73 74 
+        5f 61 70 62 00 
+      power-domains:
+        00 00 00 1d 00 00 00 03 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+    Node 0x64bc: vpu_dec@130A0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 76 64 65 63 00 
+        'starfive,vdec'
+      reg:
+        00 00 00 00 13 0a 00 00 00 00 00 00 00 01 00 00 
+      interrupts:
+        00 00 00 0d 
+      clocks:
+        00 00 00 1b 00 00 00 46 00 00 00 1b 00 00 00 47 00 00 00 1b 
+        00 00 00 48 00 00 00 1b 00 00 00 49 00 00 00 1b 00 00 00 4c 
+      clock-names:
+        61 78 69 5f 63 6c 6b 00 62 70 75 5f 63 6c 6b 00 76 63 65 5f 
+        63 6c 6b 00 61 70 62 5f 63 6c 6b 00 6e 6f 63 5f 62 75 73 00 
+      resets:
+        00 00 00 1c 00 00 00 2f 00 00 00 1c 00 00 00 30 00 00 00 1c 
+        00 00 00 31 00 00 00 1c 00 00 00 32 00 00 00 1c 00 00 00 35 
+      reset-names:
+        72 73 74 5f 61 78 69 00 72 73 74 5f 62 70 75 00 72 73 74 5f 
+        76 63 65 00 72 73 74 5f 61 70 62 00 72 73 74 5f 73 72 61 6d 
+        00 
+      starfive,vdec_noc_ctrl:
+      power-domains:
+        00 00 00 1d 00 00 00 03 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+    Node 0x6628: vpu_enc@130B0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 76 65 6e 63 00 
+        'starfive,venc'
+      reg:
+        00 00 00 00 13 0b 00 00 00 00 00 00 00 01 00 00 
+      interrupts:
+        00 00 00 0f 
+      clocks:
+        00 00 00 1b 00 00 00 4e 00 00 00 1b 00 00 00 4f 00 00 00 1b 
+        00 00 00 50 00 00 00 1b 00 00 00 51 00 00 00 1b 00 00 00 52 
+      clock-names:
+        61 78 69 5f 63 6c 6b 00 62 70 75 5f 63 6c 6b 00 76 63 65 5f 
+        63 6c 6b 00 61 70 62 5f 63 6c 6b 00 6e 6f 63 5f 62 75 73 00 
+      resets:
+        00 00 00 1c 00 00 00 36 00 00 00 1c 00 00 00 37 00 00 00 1c 
+        00 00 00 38 00 00 00 1c 00 00 00 39 00 00 00 1c 00 00 00 3a 
+      reset-names:
+        72 73 74 5f 61 78 69 00 72 73 74 5f 62 70 75 00 72 73 74 5f 
+        76 63 65 00 72 73 74 5f 61 70 62 00 72 73 74 5f 73 72 61 6d 
+        00 
+      starfive,venc_noc_ctrl:
+      power-domains:
+        00 00 00 1d 00 00 00 06 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+    Node 0x6794: reset-controller
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 72 65 73 65 
+        74 00 
+        'starfive,jh7110-reset'
+      reg:
+        00 00 00 00 13 02 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+        10 23 00 00 00 00 00 00 00 01 00 00 00 00 00 00 17 00 00 00 
+        00 00 00 00 00 01 00 00 00 00 00 00 19 81 00 00 00 00 00 00 
+        00 01 00 00 00 00 00 00 29 5c 00 00 00 00 00 00 00 01 00 00 
+      reg-names:
+        73 79 73 63 72 67 00 73 74 67 63 72 67 00 61 6f 6e 63 72 67 
+        00 69 73 70 63 72 67 00 76 6f 75 74 63 72 67 00 
+      #reset-cells:
+        00 00 00 01 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      phandle:
+        00 00 00 1c 
+    Node 0x6894: stmmac-axi-config
+      snps,wr_osr_lmt:
+        00 00 00 0f 
+      snps,rd_osr_lmt:
+        00 00 00 0f 
+      snps,blen:
+        00 00 01 00 00 00 00 80 00 00 00 40 00 00 00 20 00 00 00 00 
+        00 00 00 00 00 00 00 00 
+      phandle:
+        00 00 00 31 
+    Node 0x6908: ethernet@16030000
+      local-mac-address:
+        6c cf 39 00 1d c5 
+      compatible:
+        73 74 61 72 66 69 76 65 2c 64 77 6d 61 63 00 73 6e 70 73 2c 
+        64 77 6d 61 63 2d 35 2e 31 30 61 00 
+      reg:
+        00 00 00 00 16 03 00 00 00 00 00 00 00 01 00 00 
+      clock-names:
+        67 74 78 00 74 78 00 70 74 70 5f 72 65 66 00 73 74 6d 6d 61 
+        63 65 74 68 00 70 63 6c 6b 00 67 74 78 63 00 72 6d 69 69 5f 
+        72 74 78 00 
+      clocks:
+        00 00 00 1b 00 00 00 6c 00 00 00 1b 00 00 00 e0 00 00 00 1b 
+        00 00 00 6d 00 00 00 1b 00 00 00 dd 00 00 00 1b 00 00 00 de 
+        00 00 00 1b 00 00 00 6f 00 00 00 1b 00 00 00 df 
+      resets:
+        00 00 00 1c 00 00 00 a1 00 00 00 1c 00 00 00 a0 
+      reset-names:
+        61 68 62 00 73 74 6d 6d 61 63 65 74 68 00 
+      interrupts:
+        00 00 00 07 00 00 00 06 00 00 00 05 
+      interrupt-names:
+        6d 61 63 69 72 71 00 65 74 68 5f 77 61 6b 65 5f 69 72 71 00 
+        65 74 68 5f 6c 70 69 00 
+      max-frame-size:
+        00 00 23 28 
+      phy-mode:
+        72 67 6d 69 69 2d 69 64 00 
+        'rgmii-id'
+      snps,multicast-filter-bins:
+        00 00 00 40 
+      snps,perfect-filter-entries:
+        00 00 00 80 
+      rx-fifo-depth:
+        00 00 08 00 
+      tx-fifo-depth:
+        00 00 08 00 
+      snps,fixed-burst:
+      snps,no-pbl-x8:
+      snps,force_thresh_dma_mode:
+      snps,axi-config:
+        00 00 00 31 
+      snps,tso:
+      snps,en-tx-lpi-clockgating:
+      snps,en-lpi:
+      snps,write-requests:
+        00 00 00 04 
+      snps,read-requests:
+        00 00 00 04 
+      snps,burst-map:
+        00 00 00 07 
+      snps,txpbl:
+        00 00 00 10 
+      snps,rxpbl:
+        00 00 00 10 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      Node 0x6bb4: ethernet-phy@0
+        rxc_dly_en:
+          00 00 00 01 
+        tx_delay_sel_fe:
+          00 00 00 05 
+        tx_delay_sel:
+          00 00 00 0a 
+        tx_inverted_10:
+          00 00 00 01 
+        tx_inverted_100:
+          00 00 00 01 
+        tx_inverted_1000:
+          00 00 00 01 
+    Node 0x6c30: ethernet@16040000
+      local-mac-address:
+        6c cf 39 00 1d c6 
+      compatible:
+        73 74 61 72 66 69 76 65 2c 64 77 6d 61 63 00 73 6e 70 73 2c 
+        64 77 6d 61 63 2d 35 2e 31 30 61 00 
+      reg:
+        00 00 00 00 16 04 00 00 00 00 00 00 00 01 00 00 
+      clock-names:
+        67 74 78 00 74 78 00 70 74 70 5f 72 65 66 00 73 74 6d 6d 61 
+        63 65 74 68 00 70 63 6c 6b 00 67 74 78 63 00 72 6d 69 69 5f 
+        72 74 78 00 
+      clocks:
+        00 00 00 1b 00 00 00 64 00 00 00 1b 00 00 00 69 00 00 00 1b 
+        00 00 00 66 00 00 00 1b 00 00 00 61 00 00 00 1b 00 00 00 62 
+        00 00 00 1b 00 00 00 6b 00 00 00 1b 00 00 00 65 
+      resets:
+        00 00 00 1c 00 00 00 43 00 00 00 1c 00 00 00 42 
+      reset-names:
+        61 68 62 00 73 74 6d 6d 61 63 65 74 68 00 
+      interrupts:
+        00 00 00 4e 00 00 00 4d 00 00 00 4c 
+      interrupt-names:
+        6d 61 63 69 72 71 00 65 74 68 5f 77 61 6b 65 5f 69 72 71 00 
+        65 74 68 5f 6c 70 69 00 
+      max-frame-size:
+        00 00 23 28 
+      phy-mode:
+        72 67 6d 69 69 2d 69 64 00 
+        'rgmii-id'
+      snps,multicast-filter-bins:
+        00 00 00 40 
+      snps,perfect-filter-entries:
+        00 00 00 80 
+      rx-fifo-depth:
+        00 00 08 00 
+      tx-fifo-depth:
+        00 00 08 00 
+      snps,fixed-burst:
+      snps,no-pbl-x8:
+      snps,force_thresh_dma_mode:
+      snps,axi-config:
+        00 00 00 31 
+      snps,tso:
+      snps,en-tx-lpi-clockgating:
+      snps,en-lpi:
+      snps,write-requests:
+        00 00 00 04 
+      snps,read-requests:
+        00 00 00 04 
+      snps,burst-map:
+        00 00 00 07 
+      snps,txpbl:
+        00 00 00 10 
+      snps,rxpbl:
+        00 00 00 10 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      Node 0x6edc: ethernet-phy@1
+        tx_delay_sel_fe:
+          00 00 00 05 
+        tx_delay_sel:
+          00 00 00 00 
+        rxc_dly_en:
+          00 00 00 00 
+        tx_inverted_10:
+          00 00 00 01 
+        tx_inverted_100:
+          00 00 00 01 
+        tx_inverted_1000:
+          00 00 00 00 
+    Node 0x6f58: gpu@18000000
+      compatible:
+        69 6d 67 2d 67 70 75 00 
+        'img-gpu'
+      reg:
+        00 00 00 00 18 00 00 00 00 00 00 00 00 10 00 00 00 00 00 00 
+        01 30 c0 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 00 2d 00 00 00 1b 00 00 00 30 00 00 00 1b 
+        00 00 00 31 00 00 00 1b 00 00 00 2e 00 00 00 1b 00 00 00 2f 
+        00 00 00 1b 00 00 00 32 
+      clock-names:
+        63 6c 6b 5f 62 76 00 63 6c 6b 5f 61 70 62 00 63 6c 6b 5f 72 
+        74 63 00 63 6c 6b 5f 63 6f 72 65 00 63 6c 6b 5f 73 79 73 00 
+        63 6c 6b 5f 61 78 69 00 
+      resets:
+        00 00 00 1c 00 00 00 15 00 00 00 1c 00 00 00 16 
+      reset-names:
+        72 73 74 5f 61 70 62 00 72 73 74 5f 64 6f 6d 61 00 
+      power-domains:
+        00 00 00 1d 00 00 00 02 
+      interrupts:
+        00 00 00 52 
+      current-clock:
+        00 7a 12 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+    Node 0x70ac: can@130d0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 63 61 6e 00 
+        69 70 6d 73 2c 63 61 6e 00 
+      reg:
+        00 00 00 00 13 0d 00 00 00 00 00 00 00 00 10 00 
+      interrupts:
+        00 00 00 70 
+      clocks:
+        00 00 00 1b 00 00 00 73 00 00 00 1b 00 00 00 75 00 00 00 1b 
+        00 00 00 74 
+      clock-names:
+        61 70 62 5f 63 6c 6b 00 63 6f 72 65 5f 63 6c 6b 00 74 69 6d 
+        65 72 5f 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 6f 00 00 00 1c 00 00 00 70 00 00 00 1c 
+        00 00 00 71 
+      reset-names:
+        72 73 74 5f 61 70 62 00 72 73 74 5f 63 6f 72 65 00 72 73 74 
+        5f 74 69 6d 65 72 00 
+      frequency:
+        02 62 5a 00 
+        '\^BbZ'
+      starfive,sys-syscon:
+        00 00 00 17 00 00 00 10 00 00 00 03 00 00 00 08 
+      syscon,can_or_canfd:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x7208: can@130e0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 63 61 6e 00 
+        69 70 6d 73 2c 63 61 6e 00 
+      reg:
+        00 00 00 00 13 0e 00 00 00 00 00 00 00 00 10 00 
+      interrupts:
+        00 00 00 71 
+      clocks:
+        00 00 00 1b 00 00 00 76 00 00 00 1b 00 00 00 78 00 00 00 1b 
+        00 00 00 77 
+      clock-names:
+        61 70 62 5f 63 6c 6b 00 63 6f 72 65 5f 63 6c 6b 00 74 69 6d 
+        65 72 5f 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 72 00 00 00 1c 00 00 00 73 00 00 00 1c 
+        00 00 00 74 
+      reset-names:
+        72 73 74 5f 61 70 62 00 72 73 74 5f 63 6f 72 65 00 72 73 74 
+        5f 74 69 6d 65 72 00 
+      frequency:
+        02 62 5a 00 
+        '\^BbZ'
+      starfive,sys-syscon:
+        00 00 00 17 00 00 00 88 00 00 00 12 00 04 00 00 
+      syscon,can_or_canfd:
+        00 00 00 01 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x7364: tdm@10090000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 74 64 6d 00 
+        'starfive,jh7110-tdm'
+      reg:
+        00 00 00 00 10 09 00 00 00 00 00 00 00 00 10 00 
+      reg-names:
+        74 64 6d 00 
+        'tdm'
+      clocks:
+        00 00 00 1b 00 00 00 09 00 00 00 1b 00 00 00 b8 00 00 00 1b 
+        00 00 00 0c 00 00 00 1b 00 00 00 b9 00 00 00 1b 00 00 00 ba 
+        00 00 00 10 00 00 00 1b 00 00 00 bb 00 00 00 1b 00 00 00 11 
+      clock-names:
+        63 6c 6b 5f 61 68 62 30 00 63 6c 6b 5f 74 64 6d 5f 61 68 62 
+        00 63 6c 6b 5f 61 70 62 30 00 63 6c 6b 5f 74 64 6d 5f 61 70 
+        62 00 63 6c 6b 5f 74 64 6d 5f 69 6e 74 65 72 6e 61 6c 00 63 
+        6c 6b 5f 74 64 6d 5f 65 78 74 00 63 6c 6b 5f 74 64 6d 00 6d 
+        63 6c 6b 5f 69 6e 6e 65 72 00 
+      resets:
+        00 00 00 1c 00 00 00 69 00 00 00 1c 00 00 00 6b 00 00 00 1c 
+        00 00 00 6a 
+      reset-names:
+        74 64 6d 5f 61 68 62 00 74 64 6d 5f 61 70 62 00 74 64 6d 5f 
+        72 73 74 00 
+      dmas:
+        00 00 00 32 00 00 00 14 00 00 00 01 00 00 00 32 00 00 00 15 
+        00 00 00 01 
+      dma-names:
+        72 78 00 74 78 00 
+      #sound-dai-cells:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x7520: spdif0@100a0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 73 70 64 69 
+        66 00 
+        'starfive,jh7110-spdif'
+      reg:
+        00 00 00 00 10 0a 00 00 00 00 00 00 00 00 10 00 
+      clocks:
+        00 00 00 1b 00 00 00 9f 00 00 00 1b 00 00 00 a0 00 00 00 1b 
+        00 00 00 10 00 00 00 1b 00 00 00 11 00 00 00 11 00 00 00 1b 
+        00 00 00 12 
+      clock-names:
+        73 70 64 69 66 2d 61 70 62 00 73 70 64 69 66 2d 63 6f 72 65 
+        00 61 75 64 72 6f 6f 74 00 6d 63 6c 6b 5f 69 6e 6e 65 72 00 
+        6d 63 6c 6b 5f 65 78 74 00 6d 63 6c 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 5f 
+      reset-names:
+        72 73 74 5f 61 70 62 00 
+        'rst_apb'
+      interrupts:
+        00 00 00 54 
+      interrupt-names:
+        74 78 00 
+        'tx'
+      #sound-dai-cells:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x7664: pwmdac@100b0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 70 77 6d 64 
+        61 63 00 
+        'starfive,jh7110-pwmdac'
+      reg:
+        00 00 00 00 10 0b 00 00 00 00 00 00 00 00 10 00 
+      clocks:
+        00 00 00 1b 00 00 00 0c 00 00 00 1b 00 00 00 9d 00 00 00 1b 
+        00 00 00 9e 
+      clock-names:
+        61 70 62 30 00 70 77 6d 64 61 63 2d 61 70 62 00 70 77 6d 64 
+        61 63 2d 63 6f 72 65 00 
+      resets:
+        00 00 00 1c 00 00 00 60 
+      reset-names:
+        72 73 74 2d 61 70 62 00 
+        'rst-apb'
+      dmas:
+        00 00 00 32 00 00 00 16 00 00 00 01 
+      dma-names:
+        74 78 00 
+        'tx'
+      #sound-dai-cells:
+        00 00 00 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      pinctrl-names:
+        64 65 66 61 75 6c 74 00 
+        'default'
+      pinctrl-0:
+        00 00 00 33 
+      phandle:
+        00 00 00 55 
+    Node 0x77b0: i2stx@100c0000
+      compatible:
+        73 6e 70 73 2c 64 65 73 69 67 6e 77 61 72 65 2d 69 32 73 74 
+        78 00 
+        'snps,designware-i2stx'
+      reg:
+        00 00 00 00 10 0c 00 00 00 00 00 00 00 00 10 00 
+      interrupt-names:
+        74 78 00 
+        'tx'
+      #sound-dai-cells:
+        00 00 00 00 
+      dmas:
+        00 00 00 32 00 00 00 1c 00 00 00 01 
+      dma-names:
+        72 78 00 
+        'rx'
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x7868: pdm@100d0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 70 64 6d 00 
+        'starfive,jh7110-pdm'
+      reg:
+        00 00 00 00 10 0d 00 00 00 00 00 00 00 00 10 00 
+      reg-names:
+        70 64 6d 00 
+        'pdm'
+      clocks:
+        00 00 00 1b 00 00 00 b6 00 00 00 1b 00 00 00 0c 00 00 00 1b 
+        00 00 00 b7 00 00 00 1b 00 00 00 12 00 00 00 11 
+      clock-names:
+        70 64 6d 5f 6d 63 6c 6b 00 63 6c 6b 5f 61 70 62 30 00 70 64 
+        6d 5f 61 70 62 00 63 6c 6b 5f 6d 63 6c 6b 00 6d 63 6c 6b 5f 
+        65 78 74 00 
+      resets:
+        00 00 00 1c 00 00 00 61 00 00 00 1c 00 00 00 62 
+      reset-names:
+        70 64 6d 5f 64 6d 69 63 00 70 64 6d 5f 61 70 62 00 
+      #sound-dai-cells:
+        00 00 00 00 
+    Node 0x7980: i2srx_mst@100e0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 69 32 73 72 
+        78 2d 6d 61 73 74 65 72 00 
+        'starfive,jh7110-i2srx-master'
+      reg:
+        00 00 00 00 10 0e 00 00 00 00 00 00 00 00 10 00 
+      clocks:
+        00 00 00 1b 00 00 00 0c 00 00 00 1b 00 00 00 af 00 00 00 1b 
+        00 00 00 b0 00 00 00 1b 00 00 00 b2 00 00 00 1b 00 00 00 b3 
+        00 00 00 1b 00 00 00 b5 
+      clock-names:
+        61 70 62 30 00 69 32 73 72 78 5f 61 70 62 00 69 32 73 72 78 
+        5f 62 63 6c 6b 5f 6d 73 74 00 69 32 73 72 78 5f 6c 72 63 6b 
+        5f 6d 73 74 00 69 32 73 72 78 5f 62 63 6c 6b 00 69 32 73 72 
+        78 5f 6c 72 63 6b 00 
+      resets:
+        00 00 00 1c 00 00 00 63 00 00 00 1c 00 00 00 64 
+      reset-names:
+        72 73 74 5f 61 70 62 5f 72 78 00 72 73 74 5f 62 63 6c 6b 5f 
+        72 78 00 
+      dmas:
+        00 00 00 32 00 00 00 18 00 00 00 01 
+      dma-names:
+        72 78 00 
+        'rx'
+      starfive,sys-syscon:
+        00 00 00 17 00 00 00 18 00 00 00 34 
+      #sound-dai-cells:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x7b18: i2srx_3ch@100e0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 69 32 73 72 
+        78 00 73 6e 70 73 2c 64 65 73 69 67 6e 77 61 72 65 2d 69 32 
+        73 00 
+      reg:
+        00 00 00 00 10 0e 00 00 00 00 00 00 00 00 10 00 
+      clocks:
+        00 00 00 1b 00 00 00 0c 00 00 00 1b 00 00 00 af 00 00 00 1b 
+        00 00 00 10 00 00 00 1b 00 00 00 11 00 00 00 1b 00 00 00 b0 
+        00 00 00 1b 00 00 00 b2 00 00 00 1b 00 00 00 b3 00 00 00 1b 
+        00 00 00 b5 00 00 00 1b 00 00 00 12 00 00 00 0e 00 00 00 0f 
+      clock-names:
+        61 70 62 30 00 33 63 68 2d 61 70 62 00 61 75 64 69 6f 72 6f 
+        6f 74 00 6d 63 6c 6b 2d 69 6e 6e 65 72 00 62 63 6c 6b 5f 6d 
+        73 74 00 33 63 68 2d 6c 72 63 6b 00 72 78 2d 62 63 6c 6b 00 
+        72 78 2d 6c 72 63 6b 00 6d 63 6c 6b 00 62 63 6c 6b 2d 65 78 
+        74 00 6c 72 63 6b 2d 65 78 74 00 
+      resets:
+        00 00 00 1c 00 00 00 63 00 00 00 1c 00 00 00 64 
+      dmas:
+        00 00 00 32 00 00 00 18 00 00 00 01 
+      dma-names:
+        72 78 00 
+        'rx'
+      starfive,sys-syscon:
+        00 00 00 17 00 00 00 18 00 00 00 34 
+      #sound-dai-cells:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+      pinctrl-names:
+        64 65 66 61 75 6c 74 00 
+        'default'
+      pinctrl-0:
+        00 00 00 34 00 00 00 35 
+    Node 0x7cf8: i2stx_4ch0@120b0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 69 32 73 74 
+        78 2d 34 63 68 30 00 73 6e 70 73 2c 64 65 73 69 67 6e 77 61 
+        72 65 2d 69 32 73 00 
+      reg:
+        00 00 00 00 12 0b 00 00 00 00 00 00 00 00 10 00 
+      clocks:
+        00 00 00 1b 00 00 00 11 00 00 00 1b 00 00 00 a2 00 00 00 1b 
+        00 00 00 a4 00 00 00 1b 00 00 00 12 00 00 00 1b 00 00 00 a5 
+        00 00 00 1b 00 00 00 a7 00 00 00 1b 00 00 00 a1 00 00 00 11 
+      clock-names:
+        69 6e 6e 65 72 00 62 63 6c 6b 2d 6d 73 74 00 6c 72 63 6b 2d 
+        6d 73 74 00 6d 63 6c 6b 00 62 63 6c 6b 30 00 6c 72 63 6b 30 
+        00 69 32 73 5f 61 70 62 00 6d 63 6c 6b 5f 65 78 74 00 
+      resets:
+        00 00 00 1c 00 00 00 65 00 00 00 1c 00 00 00 66 
+      reset-names:
+        72 73 74 5f 61 70 62 00 72 73 74 5f 62 63 6c 6b 00 
+      dmas:
+        00 00 00 32 00 00 00 2f 00 00 00 01 
+      dma-names:
+        74 78 00 
+        'tx'
+      #sound-dai-cells:
+        00 00 00 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      pinctrl-names:
+        64 65 66 61 75 6c 74 00 
+        'default'
+      pinctrl-0:
+        00 00 00 36 
+      phandle:
+        00 00 00 52 
+    Node 0x7eb8: i2stx_4ch1@120c0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 69 32 73 74 
+        78 2d 34 63 68 31 00 73 6e 70 73 2c 64 65 73 69 67 6e 77 61 
+        72 65 2d 69 32 73 00 
+      reg:
+        00 00 00 00 12 0c 00 00 00 00 00 00 00 00 10 00 
+      clocks:
+        00 00 00 1b 00 00 00 10 00 00 00 1b 00 00 00 11 00 00 00 1b 
+        00 00 00 a9 00 00 00 1b 00 00 00 ab 00 00 00 1b 00 00 00 12 
+        00 00 00 1b 00 00 00 ac 00 00 00 1b 00 00 00 ae 00 00 00 1b 
+        00 00 00 13 00 00 00 1b 00 00 00 0c 00 00 00 1b 00 00 00 a8 
+        00 00 00 11 00 00 00 0c 00 00 00 0d 
+      clock-names:
+        61 75 64 72 6f 6f 74 00 6d 63 6c 6b 5f 69 6e 6e 65 72 00 62 
+        63 6c 6b 5f 6d 73 74 00 6c 72 63 6b 5f 6d 73 74 00 6d 63 6c 
+        6b 00 34 63 68 62 63 6c 6b 00 34 63 68 6c 72 63 6b 00 6d 63 
+        6c 6b 5f 6f 75 74 00 61 70 62 30 00 63 6c 6b 5f 61 70 62 00 
+        6d 63 6c 6b 5f 65 78 74 00 62 63 6c 6b 5f 65 78 74 00 6c 72 
+        63 6b 5f 65 78 74 00 
+      resets:
+        00 00 00 1c 00 00 00 67 00 00 00 1c 00 00 00 68 
+      dmas:
+        00 00 00 32 00 00 00 30 00 00 00 01 
+      dma-names:
+        74 78 00 
+        'tx'
+      #sound-dai-cells:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+      pinctrl-names:
+        64 65 66 61 75 6c 74 00 
+        'default'
+      pinctrl-0:
+        00 00 00 37 
+    Node 0x809c: pwm@120d0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 70 77 6d 00 
+        'starfive,jh7110-pwm'
+      reg:
+        00 00 00 00 12 0d 00 00 00 00 00 00 00 01 00 00 
+      reg-names:
+        63 6f 6e 74 72 6f 6c 00 
+        'control'
+      clocks:
+        00 00 00 1b 00 00 00 79 
+      resets:
+        00 00 00 1c 00 00 00 6c 
+      starfive,approx-freq:
+        00 1e 84 80 
+      #pwm-cells:
+        00 00 00 03 
+      starfive,npwm:
+        00 00 00 08 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      pinctrl-names:
+        64 65 66 61 75 6c 74 00 
+        'default'
+      pinctrl-0:
+        00 00 00 38 
+    Node 0x8194: spdif_transmitter
+      compatible:
+        6c 69 6e 75 78 2c 73 70 64 69 66 2d 64 69 74 00 
+        'linux,spdif-dit'
+      #sound-dai-cells:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x81f4: pwmdac-transmitter
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 70 77 6d 64 
+        61 63 2d 64 69 74 00 
+        'starfive,jh7110-pwmdac-dit'
+      #sound-dai-cells:
+        00 00 00 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      phandle:
+        00 00 00 56 
+    Node 0x826c: dmic_codec
+      compatible:
+        64 6d 69 63 2d 63 6f 64 65 63 00 
+        'dmic-codec'
+      #sound-dai-cells:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x82c0: spi@10060000
+      compatible:
+        61 72 6d 2c 70 6c 30 32 32 00 61 72 6d 2c 70 72 69 6d 65 63 
+        65 6c 6c 00 
+      reg:
+        00 00 00 00 10 06 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 00 83 
+      clock-names:
+        61 70 62 5f 70 63 6c 6b 00 
+        'apb_pclk'
+      resets:
+        00 00 00 1c 00 00 00 45 
+      reset-names:
+        72 73 74 5f 61 70 62 00 
+        'rst_apb'
+      interrupts:
+        00 00 00 26 
+      arm,primecell-periphid:
+        00 04 10 22 
+      num-cs:
+        00 00 00 01 
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      pinctrl-names:
+        64 65 66 61 75 6c 74 00 
+        'default'
+      pinctrl-0:
+        00 00 00 39 
+      Node 0x83f0: spi@0
+        compatible:
+          72 6f 68 6d 2c 64 68 32 32 32 38 66 76 00 
+          'rohm,dh2228fv'
+        pl022,com-mode:
+          00 00 00 01 
+        spi-max-frequency:
+          00 98 96 80 
+        reg:
+          00 00 00 00 
+        status:
+          6f 6b 61 79 00 
+          'okay'
+    Node 0x8464: spi@10070000
+      compatible:
+        61 72 6d 2c 70 6c 30 32 32 00 61 72 6d 2c 70 72 69 6d 65 63 
+        65 6c 6c 00 
+      reg:
+        00 00 00 00 10 07 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 00 84 
+      clock-names:
+        61 70 62 5f 70 63 6c 6b 00 
+        'apb_pclk'
+      resets:
+        00 00 00 1c 00 00 00 46 
+      reset-names:
+        72 73 74 5f 61 70 62 00 
+        'rst_apb'
+      interrupts:
+        00 00 00 27 
+      arm,primecell-periphid:
+        00 04 10 22 
+      num-cs:
+        00 00 00 01 
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x8578: spi@10080000
+      compatible:
+        61 72 6d 2c 70 6c 30 32 32 00 61 72 6d 2c 70 72 69 6d 65 63 
+        65 6c 6c 00 
+      reg:
+        00 00 00 00 10 08 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 00 85 
+      clock-names:
+        61 70 62 5f 70 63 6c 6b 00 
+        'apb_pclk'
+      resets:
+        00 00 00 1c 00 00 00 47 
+      reset-names:
+        72 73 74 5f 61 70 62 00 
+        'rst_apb'
+      interrupts:
+        00 00 00 28 
+      arm,primecell-periphid:
+        00 04 10 22 
+      num-cs:
+        00 00 00 01 
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x868c: spi@12070000
+      compatible:
+        61 72 6d 2c 70 6c 30 32 32 00 61 72 6d 2c 70 72 69 6d 65 63 
+        65 6c 6c 00 
+      reg:
+        00 00 00 00 12 07 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 00 86 
+      clock-names:
+        61 70 62 5f 70 63 6c 6b 00 
+        'apb_pclk'
+      resets:
+        00 00 00 1c 00 00 00 48 
+      reset-names:
+        72 73 74 5f 61 70 62 00 
+        'rst_apb'
+      interrupts:
+        00 00 00 34 
+      arm,primecell-periphid:
+        00 04 10 22 
+      num-cs:
+        00 00 00 01 
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x87a0: spi@12080000
+      compatible:
+        61 72 6d 2c 70 6c 30 32 32 00 61 72 6d 2c 70 72 69 6d 65 63 
+        65 6c 6c 00 
+      reg:
+        00 00 00 00 12 08 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 00 87 
+      clock-names:
+        61 70 62 5f 70 63 6c 6b 00 
+        'apb_pclk'
+      resets:
+        00 00 00 1c 00 00 00 49 
+      reset-names:
+        72 73 74 5f 61 70 62 00 
+        'rst_apb'
+      interrupts:
+        00 00 00 35 
+      arm,primecell-periphid:
+        00 04 10 22 
+      num-cs:
+        00 00 00 01 
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x88b4: spi@12090000
+      compatible:
+        61 72 6d 2c 70 6c 30 32 32 00 61 72 6d 2c 70 72 69 6d 65 63 
+        65 6c 6c 00 
+      reg:
+        00 00 00 00 12 09 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 00 88 
+      clock-names:
+        61 70 62 5f 70 63 6c 6b 00 
+        'apb_pclk'
+      resets:
+        00 00 00 1c 00 00 00 4a 
+      reset-names:
+        72 73 74 5f 61 70 62 00 
+        'rst_apb'
+      interrupts:
+        00 00 00 36 
+      arm,primecell-periphid:
+        00 04 10 22 
+      num-cs:
+        00 00 00 01 
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x89c8: spi@120A0000
+      compatible:
+        61 72 6d 2c 70 6c 30 32 32 00 61 72 6d 2c 70 72 69 6d 65 63 
+        65 6c 6c 00 
+      reg:
+        00 00 00 00 12 0a 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 1b 00 00 00 89 
+      clock-names:
+        61 70 62 5f 70 63 6c 6b 00 
+        'apb_pclk'
+      resets:
+        00 00 00 1c 00 00 00 4b 
+      reset-names:
+        72 73 74 5f 61 70 62 00 
+        'rst_apb'
+      interrupts:
+        00 00 00 37 
+      arm,primecell-periphid:
+        00 04 10 22 
+      num-cs:
+        00 00 00 01 
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x8adc: pcie@2B000000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 70 63 69 65 
+        00 70 6c 64 61 2c 70 63 69 2d 78 70 72 65 73 73 72 69 63 68 
+        33 2d 61 78 69 00 
+      #address-cells:
+        00 00 00 03 
+      #size-cells:
+        00 00 00 02 
+      #interrupt-cells:
+        00 00 00 01 
+      reg:
+        00 00 00 00 2b 00 00 00 00 00 00 00 01 00 00 00 00 00 00 09 
+        40 00 00 00 00 00 00 00 10 00 00 00 
+      reg-names:
+        72 65 67 00 63 6f 6e 66 69 67 00 
+      device_type:
+        70 63 69 00 
+        'pci'
+      starfive,stg-syscon:
+        00 00 00 1e 00 00 00 c0 00 00 00 c4 00 00 01 30 00 00 01 b8 
+      bus-range:
+        00 00 00 00 00 00 00 ff 
+      ranges:
+        82 00 00 00 00 00 00 00 30 00 00 00 00 00 00 00 30 00 00 00 
+        00 00 00 00 08 00 00 00 c3 00 00 00 00 00 00 09 00 00 00 00 
+        00 00 00 09 00 00 00 00 00 00 00 00 40 00 00 00 
+      msi-parent:
+        00 00 00 03 
+      interrupts:
+        00 00 00 38 
+      interrupt-controller:
+      interrupt-names:
+        6d 73 69 00 
+        'msi'
+      interrupt-parent:
+        00 00 00 03 
+      interrupt-map-mask:
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 07 
+      interrupt-map:
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 03 
+        00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 
+        00 00 00 03 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 
+        00 00 00 03 00 00 00 03 00 00 00 03 00 00 00 00 00 00 00 00 
+        00 00 00 00 00 00 00 04 00 00 00 03 00 00 00 04 
+      resets:
+        00 00 00 1c 00 00 00 8b 00 00 00 1c 00 00 00 8c 00 00 00 1c 
+        00 00 00 8d 00 00 00 1c 00 00 00 8e 00 00 00 1c 00 00 00 8f 
+        00 00 00 1c 00 00 00 90 
+      reset-names:
+        72 73 74 5f 6d 73 74 30 00 72 73 74 5f 73 6c 76 30 00 72 73 
+        74 5f 73 6c 76 00 72 73 74 5f 62 72 67 00 72 73 74 5f 63 6f 
+        72 65 00 72 73 74 5f 61 70 62 00 
+      clocks:
+        00 00 00 1b 00 00 00 60 00 00 00 1b 00 00 00 c8 00 00 00 1b 
+        00 00 00 c6 00 00 00 1b 00 00 00 c7 
+      clock-names:
+        6e 6f 63 00 74 6c 00 61 78 69 5f 6d 73 74 30 00 61 70 62 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      pinctrl-names:
+        64 65 66 61 75 6c 74 00 70 65 72 73 74 2d 64 65 66 61 75 6c 
+        74 00 70 65 72 73 74 2d 61 63 74 69 76 65 00 
+      pinctrl-0:
+        00 00 00 3a 00 00 00 3b 
+      pinctrl-1:
+        00 00 00 3c 
+      pinctrl-2:
+        00 00 00 3d 
+    Node 0x8e40: pcie@2C000000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 70 63 69 65 
+        00 70 6c 64 61 2c 70 63 69 2d 78 70 72 65 73 73 72 69 63 68 
+        33 2d 61 78 69 00 
+      #address-cells:
+        00 00 00 03 
+      #size-cells:
+        00 00 00 02 
+      #interrupt-cells:
+        00 00 00 01 
+      reg:
+        00 00 00 00 2c 00 00 00 00 00 00 00 01 00 00 00 00 00 00 09 
+        c0 00 00 00 00 00 00 00 10 00 00 00 
+      reg-names:
+        72 65 67 00 63 6f 6e 66 69 67 00 
+      device_type:
+        70 63 69 00 
+        'pci'
+      starfive,stg-syscon:
+        00 00 00 1e 00 00 02 70 00 00 02 74 00 00 02 e0 00 00 03 68 
+      bus-range:
+        00 00 00 00 00 00 00 ff 
+      ranges:
+        82 00 00 00 00 00 00 00 38 00 00 00 00 00 00 00 38 00 00 00 
+        00 00 00 00 08 00 00 00 c3 00 00 00 00 00 00 09 80 00 00 00 
+        00 00 00 09 80 00 00 00 00 00 00 00 40 00 00 00 
+      msi-parent:
+        00 00 00 03 
+      interrupts:
+        00 00 00 39 
+      interrupt-controller:
+      interrupt-names:
+        6d 73 69 00 
+        'msi'
+      interrupt-parent:
+        00 00 00 03 
+      interrupt-map-mask:
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 07 
+      interrupt-map:
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 03 
+        00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 
+        00 00 00 03 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 
+        00 00 00 03 00 00 00 03 00 00 00 03 00 00 00 00 00 00 00 00 
+        00 00 00 00 00 00 00 04 00 00 00 03 00 00 00 04 
+      resets:
+        00 00 00 1c 00 00 00 91 00 00 00 1c 00 00 00 92 00 00 00 1c 
+        00 00 00 93 00 00 00 1c 00 00 00 94 00 00 00 1c 00 00 00 95 
+        00 00 00 1c 00 00 00 96 
+      reset-names:
+        72 73 74 5f 6d 73 74 30 00 72 73 74 5f 73 6c 76 30 00 72 73 
+        74 5f 73 6c 76 00 72 73 74 5f 62 72 67 00 72 73 74 5f 63 6f 
+        72 65 00 72 73 74 5f 61 70 62 00 
+      clocks:
+        00 00 00 1b 00 00 00 60 00 00 00 1b 00 00 00 cb 00 00 00 1b 
+        00 00 00 c9 00 00 00 1b 00 00 00 ca 
+      clock-names:
+        6e 6f 63 00 74 6c 00 61 78 69 5f 6d 73 74 30 00 61 70 62 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      pinctrl-names:
+        64 65 66 61 75 6c 74 00 70 65 72 73 74 2d 64 65 66 61 75 6c 
+        74 00 70 65 72 73 74 2d 61 63 74 69 76 65 00 
+      pinctrl-0:
+        00 00 00 3e 00 00 00 3f 
+      pinctrl-1:
+        00 00 00 40 
+      pinctrl-2:
+        00 00 00 41 
+    Node 0x91a4: mailbox@0
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6d 61 69 6c 5f 62 6f 78 00 
+        'starfive,mail_box'
+      reg:
+        00 00 00 00 13 06 00 00 00 00 00 00 00 00 10 00 
+      clocks:
+        00 00 00 1b 00 00 00 71 
+      clock-names:
+        63 6c 6b 5f 61 70 62 00 
+        'clk_apb'
+      resets:
+        00 00 00 1c 00 00 00 44 
+      reset-names:
+        6d 62 78 5f 72 72 65 00 
+        'mbx_rre'
+      interrupts:
+        00 00 00 1a 00 00 00 1b 
+      #mbox-cells:
+        00 00 00 02 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      phandle:
+        00 00 00 42 
+    Node 0x928c: mailbox_client@0
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6d 61 69 6c 62 6f 78 2d 74 65 73 
+        74 00 
+        'starfive,mailbox-test'
+      mbox-names:
+        72 78 00 74 78 00 
+      mboxes:
+        00 00 00 42 00 00 00 00 00 00 00 01 00 00 00 42 00 00 00 01 
+        00 00 00 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+    Node 0x9318: display-subsystem
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 64 69 73 70 
+        6c 61 79 00 76 65 72 69 73 69 6c 69 63 6f 6e 2c 64 69 73 70 
+        6c 61 79 2d 73 75 62 73 79 73 74 65 6d 00 
+      ports:
+        00 00 00 43 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+    Node 0x939c: dssctrl@295B0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 64 73 73 63 
+        74 72 6c 00 76 65 72 69 73 69 6c 69 63 6f 6e 2c 64 73 73 2d 
+        63 74 72 6c 00 73 79 73 63 6f 6e 00 
+      reg:
+        00 00 00 00 29 5b 00 00 00 00 00 00 00 00 00 90 
+      phandle:
+        00 00 00 44 
+    Node 0x9424: tda988x_pin
+      compatible:
+        73 74 61 72 66 69 76 65 2c 74 64 61 39 39 38 78 5f 72 67 62 
+        5f 70 69 6e 00 
+        'starfive,tda998x_rgb_pin'
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+    Node 0x9478: rgb-output
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 72 67 62 5f 
+        6f 75 74 70 75 74 00 76 65 72 69 73 69 6c 69 63 6f 6e 2c 72 
+        67 62 2d 65 6e 63 6f 64 65 72 00 
+      status:
+        64 69 73 61 62 6c 65 64 00 
+        'disabled'
+      Node 0x94e0: ports
+        #address-cells:
+          00 00 00 01 
+        #size-cells:
+          00 00 00 00 
+        Node 0x950c: port@0
+          #address-cells:
+            00 00 00 01 
+          #size-cells:
+            00 00 00 00 
+          reg:
+            00 00 00 00 
+          Node 0x9548: endpoint@0
+            reg:
+              00 00 00 00 
+            remote-endpoint:
+              00 00 00 43 
+            phandle:
+              00 00 00 46 
+    Node 0x9598: dc8200@29400000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 64 63 38 32 
+        30 30 00 76 65 72 69 73 69 6c 69 63 6f 6e 2c 64 63 38 32 30 
+        30 00 
+      verisilicon,dss-syscon:
+        00 00 00 44 
+      reg:
+        00 00 00 00 29 40 00 00 00 00 00 00 00 00 01 00 00 00 00 00 
+        29 40 08 00 00 00 00 00 00 00 20 00 00 00 00 00 17 03 00 00 
+        00 00 00 00 00 00 10 00 
+      interrupts:
+        00 00 00 5f 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      clocks:
+        00 00 00 1b 00 00 00 3c 00 00 00 1b 00 00 00 3a 00 00 00 1b 
+        00 00 00 3e 00 00 00 1b 00 00 00 3d 00 00 00 45 00 00 00 07 
+        00 00 00 45 00 00 00 08 00 00 00 45 00 00 00 04 00 00 00 45 
+        00 00 00 05 00 00 00 45 00 00 00 06 00 00 00 1b 00 00 00 3e 
+        00 00 00 45 00 00 00 09 00 00 00 18 00 00 00 45 00 00 00 01 
+        00 00 00 45 00 00 00 27 00 00 00 45 00 00 00 28 
+      clock-names:
+        6e 6f 63 5f 64 69 73 70 00 76 6f 75 74 5f 73 72 63 00 74 6f 
+        70 5f 76 6f 75 74 5f 61 78 69 00 74 6f 70 5f 76 6f 75 74 5f 
+        61 68 62 00 70 69 78 5f 63 6c 6b 00 76 6f 75 74 5f 70 69 78 
+        31 00 61 78 69 5f 63 6c 6b 00 63 6f 72 65 5f 63 6c 6b 00 76 
+        6f 75 74 5f 61 68 62 00 76 6f 75 74 5f 74 6f 70 5f 61 78 69 
+        00 76 6f 75 74 5f 74 6f 70 5f 6c 63 64 00 68 64 6d 69 74 78 
+        30 5f 70 69 78 65 6c 63 6c 6b 00 64 63 38 32 30 30 5f 70 69 
+        78 30 00 64 63 38 32 30 30 5f 70 69 78 30 5f 6f 75 74 00 64 
+        63 38 32 30 30 5f 70 69 78 31 5f 6f 75 74 00 
+      resets:
+        00 00 00 1c 00 00 00 2b 00 00 00 1c 00 00 00 e0 00 00 00 1c 
+        00 00 00 e1 00 00 00 1c 00 00 00 e2 00 00 00 1c 00 00 00 1a 
+      reset-names:
+        72 73 74 5f 76 6f 75 74 5f 73 72 63 00 72 73 74 5f 61 78 69 
+        00 72 73 74 5f 61 68 62 00 72 73 74 5f 63 6f 72 65 00 72 73 
+        74 5f 6e 6f 63 5f 64 69 73 70 00 
+      Node 0x9804: port
+        #address-cells:
+          00 00 00 01 
+        #size-cells:
+          00 00 00 00 
+        Node 0x9830: endpoint@0
+          reg:
+            00 00 00 00 
+          remote-endpoint:
+            00 00 00 46 
+          phandle:
+            00 00 00 43 
+        Node 0x9874: endpoint@1
+          reg:
+            00 00 00 01 
+          remote-endpoint:
+            00 00 00 47 
+          phandle:
+            00 00 00 50 
+        Node 0x98b8: endpoint@2
+          reg:
+            00 00 00 02 
+          remote-endpoint:
+            00 00 00 48 
+          phandle:
+            00 00 00 49 
+    Node 0x9904: dsi-output
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 64 69 73 70 
+        6c 61 79 2d 65 6e 63 6f 64 65 72 00 76 65 72 69 73 69 6c 69 
+        63 6f 6e 2c 64 73 69 2d 65 6e 63 6f 64 65 72 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      Node 0x996c: ports
+        #address-cells:
+          00 00 00 01 
+        #size-cells:
+          00 00 00 00 
+        Node 0x9998: port@0
+          reg:
+            00 00 00 00 
+          Node 0x99b4: endpoint
+            remote-endpoint:
+              00 00 00 49 
+            phandle:
+              00 00 00 48 
+        Node 0x99ec: port@1
+          reg:
+            00 00 00 01 
+          Node 0x9a08: endpoint
+            remote-endpoint:
+              00 00 00 4a 
+            phandle:
+              00 00 00 4e 
+    Node 0x9a48: mipi-dphy@295e0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 6d 69 70 69 
+        2d 64 70 68 79 2d 74 78 00 6d 33 31 2c 6d 69 70 69 2d 64 70 
+        68 79 2d 74 78 00 
+      reg:
+        00 00 00 00 29 5e 00 00 00 00 00 00 00 01 00 00 
+      clocks:
+        00 00 00 45 00 00 00 0e 
+      clock-names:
+        64 70 68 79 5f 74 78 65 73 63 00 
+        'dphy_txesc'
+      resets:
+        00 00 00 1c 00 00 00 ea 00 00 00 1c 00 00 00 eb 
+      reset-names:
+        64 70 68 79 5f 73 79 73 00 64 70 68 79 5f 74 78 62 79 74 65 
+        68 73 00 
+      #phy-cells:
+        00 00 00 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      phandle:
+        00 00 00 4b 
+    Node 0x9b5c: mipi@295d0000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 6d 69 70 69 
+        5f 64 73 69 00 63 64 6e 73 2c 64 73 69 00 
+      reg:
+        00 00 00 00 29 5d 00 00 00 00 00 00 00 01 00 00 
+      interrupts:
+        00 00 00 62 
+      reg-names:
+        64 73 69 00 
+        'dsi'
+      clocks:
+        00 00 00 45 00 00 00 0b 00 00 00 45 00 00 00 0a 00 00 00 45 
+        00 00 00 0d 00 00 00 45 00 00 00 0c 
+      clock-names:
+        73 79 73 00 61 70 62 00 74 78 65 73 63 00 64 70 69 00 
+      resets:
+        00 00 00 1c 00 00 00 e3 00 00 00 1c 00 00 00 e4 00 00 00 1c 
+        00 00 00 e5 00 00 00 1c 00 00 00 e6 00 00 00 1c 00 00 00 e7 
+        00 00 00 1c 00 00 00 e8 
+      reset-names:
+        64 73 69 5f 64 70 69 00 64 73 69 5f 61 70 62 00 64 73 69 5f 
+        72 78 65 73 63 00 64 73 69 5f 73 79 73 00 64 73 69 5f 74 78 
+        62 79 74 65 68 73 00 64 73 69 5f 74 78 65 73 63 00 
+      phys:
+        00 00 00 4b 
+      phy-names:
+        64 70 68 79 00 
+        'dphy'
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      Node 0x9ce4: ports
+        #address-cells:
+          00 00 00 01 
+        #size-cells:
+          00 00 00 00 
+        Node 0x9d10: port@0
+          reg:
+            00 00 00 00 
+          #address-cells:
+            00 00 00 01 
+          #size-cells:
+            00 00 00 00 
+          Node 0x9d4c: endpoint@0
+            reg:
+              00 00 00 00 
+            remote-endpoint:
+              00 00 00 4c 
+            phandle:
+              00 00 00 24 
+          Node 0x9d90: endpoint@1
+            reg:
+              00 00 00 01 
+            remote-endpoint:
+              00 00 00 4d 
+            phandle:
+              00 00 00 26 
+        Node 0x9dd8: port@1
+          reg:
+            00 00 00 01 
+          Node 0x9df4: endpoint
+            remote-endpoint:
+              00 00 00 4e 
+            phandle:
+              00 00 00 4a 
+    Node 0x9e34: hdmi@29590000
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 68 64 6d 69 
+        00 69 6e 6e 6f 2c 68 64 6d 69 00 
+      reg:
+        00 00 00 00 29 59 00 00 00 00 00 00 00 00 40 00 
+      interrupts:
+        00 00 00 63 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      clocks:
+        00 00 00 45 00 00 00 11 00 00 00 45 00 00 00 0f 00 00 00 45 
+        00 00 00 10 00 00 00 18 
+      clock-names:
+        73 79 73 63 6c 6b 00 6d 63 6c 6b 00 62 63 6c 6b 00 70 63 6c 
+        6b 00 
+      resets:
+        00 00 00 1c 00 00 00 e9 
+      reset-names:
+        68 64 6d 69 5f 74 78 00 
+        'hdmi_tx'
+      #sound-dai-cells:
+        00 00 00 00 
+      pinctrl-names:
+        64 65 66 61 75 6c 74 00 
+        'default'
+      pinctrl-0:
+        00 00 00 4f 
+      phandle:
+        00 00 00 53 
+      Node 0x9f6c: port
+        #address-cells:
+          00 00 00 01 
+        #size-cells:
+          00 00 00 00 
+        Node 0x9f98: endpoint@0
+          reg:
+            00 00 00 00 
+          remote-endpoint:
+            00 00 00 50 
+          phandle:
+            00 00 00 47 
+    Node 0x9fe4: snd-card0
+      compatible:
+        73 69 6d 70 6c 65 2d 61 75 64 69 6f 2d 63 61 72 64 00 
+        'simple-audio-card'
+      simple-audio-card,name:
+        53 74 61 72 66 69 76 65 2d 41 43 31 30 38 2d 53 6f 75 6e 64 
+        2d 43 61 72 64 00 
+        'Starfive-AC108-Sound-Card'
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+    Node 0xa060: snd-card1
+      compatible:
+        73 69 6d 70 6c 65 2d 61 75 64 69 6f 2d 63 61 72 64 00 
+        'simple-audio-card'
+      simple-audio-card,name:
+        53 74 61 72 66 69 76 65 2d 48 44 4d 49 2d 53 6f 75 6e 64 2d 
+        43 61 72 64 00 
+        'Starfive-HDMI-Sound-Card'
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      Node 0xa0d8: simple-audio-card,dai-link@0
+        reg:
+          00 00 00 00 
+        format:
+          69 32 73 00 
+          'i2s'
+        bitclock-master:
+          00 00 00 51 
+        frame-master:
+          00 00 00 51 
+        mclk-fs:
+          00 00 01 00 
+        status:
+          6f 6b 61 79 00 
+          'okay'
+        Node 0xa160: cpu
+          sound-dai:
+            00 00 00 52 
+          phandle:
+            00 00 00 51 
+        Node 0xa18c: codec
+          sound-dai:
+            00 00 00 53 
+    Node 0xa1b4: snd-card2
+      compatible:
+        73 69 6d 70 6c 65 2d 61 75 64 69 6f 2d 63 61 72 64 00 
+        'simple-audio-card'
+      simple-audio-card,name:
+        53 74 61 72 66 69 76 65 2d 50 44 4d 2d 53 6f 75 6e 64 2d 43 
+        61 72 64 00 
+        'Starfive-PDM-Sound-Card'
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+    Node 0xa22c: snd-card3
+      compatible:
+        73 69 6d 70 6c 65 2d 61 75 64 69 6f 2d 63 61 72 64 00 
+        'simple-audio-card'
+      simple-audio-card,name:
+        53 74 61 72 66 69 76 65 2d 50 57 4d 44 41 43 2d 53 6f 75 6e 
+        64 2d 43 61 72 64 00 
+        'Starfive-PWMDAC-Sound-Card'
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+      Node 0xa2a4: simple-audio-card,dai-link@0
+        reg:
+          00 00 00 00 
+        format:
+          6c 65 66 74 5f 6a 00 
+          'left_j'
+        bitclock-master:
+          00 00 00 54 
+        frame-master:
+          00 00 00 54 
+        status:
+          6f 6b 61 79 00 
+          'okay'
+        Node 0xa320: cpu
+          sound-dai:
+            00 00 00 55 
+          phandle:
+            00 00 00 54 
+        Node 0xa34c: codec
+          sound-dai:
+            00 00 00 56 
+    Node 0xa374: snd-card4
+      compatible:
+        73 69 6d 70 6c 65 2d 61 75 64 69 6f 2d 63 61 72 64 00 
+        'simple-audio-card'
+      simple-audio-card,name:
+        53 74 61 72 66 69 76 65 2d 53 50 44 49 46 2d 53 6f 75 6e 64 
+        2d 43 61 72 64 00 
+        'Starfive-SPDIF-Sound-Card'
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+    Node 0xa3f0: snd-card5
+      compatible:
+        73 69 6d 70 6c 65 2d 61 75 64 69 6f 2d 63 61 72 64 00 
+        'simple-audio-card'
+      simple-audio-card,name:
+        53 74 61 72 66 69 76 65 2d 54 44 4d 2d 53 6f 75 6e 64 2d 43 
+        61 72 64 00 
+        'Starfive-TDM-Sound-Card'
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+    Node 0xa468: snd-card6
+      compatible:
+        73 69 6d 70 6c 65 2d 61 75 64 69 6f 2d 63 61 72 64 00 
+        'simple-audio-card'
+      simple-audio-card,name:
+        53 74 61 72 66 69 76 65 2d 57 4d 38 39 36 30 2d 53 6f 75 6e 
+        64 2d 43 61 72 64 00 
+        'Starfive-WM8960-Sound-Card'
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 00 
+    Node 0xa4e4: e24@0
+      compatible:
+        73 74 61 72 66 69 76 65 2c 65 32 34 00 
+        'starfive,e24'
+      reg:
+        00 00 00 00 c0 11 00 00 00 00 00 00 00 00 10 00 00 00 00 00 
+        c0 11 10 00 00 00 00 00 00 01 f0 00 
+      reg-names:
+        65 63 6d 64 00 65 73 70 61 63 65 00 
+      clocks:
+        00 00 00 1b 00 00 00 d6 00 00 00 1b 00 00 00 d7 00 00 00 1b 
+        00 00 00 d8 
+      clock-names:
+        63 6c 6b 5f 72 74 63 00 63 6c 6b 5f 63 6f 72 65 00 63 6c 6b 
+        5f 64 62 67 00 
+      resets:
+        00 00 00 1c 00 00 00 84 
+      reset-names:
+        65 32 34 5f 63 6f 72 65 00 
+        'e24_core'
+      starfive,stg-syscon:
+        00 00 00 1e 
+      interrupt-parent:
+        00 00 00 03 
+      firmware-name:
+        65 32 34 5f 65 6c 66 00 
+        'e24_elf'
+      irq-mode:
+        00 00 00 01 
+      mbox-names:
+        74 78 00 72 78 00 
+      mboxes:
+        00 00 00 42 00 00 00 00 00 00 00 02 00 00 00 42 00 00 00 02 
+        00 00 00 00 
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 01 
+      ranges:
+        c0 00 00 00 00 00 00 00 c0 00 00 00 00 20 00 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      Node 0xa694: dsp@0
+    Node 0xa6a8: xrp@0
+      compatible:
+        63 64 6e 73 2c 78 72 70 00 
+        'cdns,xrp'
+      reg:
+        00 00 00 00 10 23 00 00 00 00 00 00 00 01 00 00 00 00 00 00 
+        10 24 00 00 00 00 00 00 00 01 00 00 
+      memory-region:
+        00 00 00 57 
+      clocks:
+        00 00 00 1b 00 00 00 be 
+      clock-names:
+        63 6f 72 65 5f 63 6c 6b 00 
+        'core_clk'
+      resets:
+        00 00 00 1c 00 00 00 81 00 00 00 1c 00 00 00 82 
+      reset-names:
+        72 73 74 5f 63 6f 72 65 00 72 73 74 5f 61 78 69 00 
+      starfive,stg-syscon:
+        00 00 00 1e 
+      firmware-name:
+        68 69 66 69 34 5f 65 6c 66 00 
+        'hifi4_elf'
+      #address-cells:
+        00 00 00 01 
+      #size-cells:
+        00 00 00 01 
+      ranges:
+        40 00 00 00 00 00 00 00 20 00 00 00 00 04 00 00 f0 00 00 00 
+        00 00 00 00 f0 00 00 00 03 00 00 00 
+      status:
+        6f 6b 61 79 00 
+        'okay'
+      Node 0xa7f8: dsp@0
+    Node 0xa80c: starfive,jh7110-cpufreq
+      compatible:
+        73 74 61 72 66 69 76 65 2c 6a 68 37 31 31 30 2d 63 70 75 66 
+        72 65 71 00 
+        'starfive,jh7110-cpufreq'
+      clocks:
+        00 00 00 1b 00 00 00 01 
+      clock-names:
+        63 70 75 5f 63 6c 6b 00 
+        'cpu_clk'
+  Node 0xa87c: aliases
+    spi0:
+      2f 73 6f 63 2f 73 70 69 40 31 33 30 31 30 30 30 30 00 
+      '/soc/spi@13010000'
+    gpio0:
+      2f 73 6f 63 2f 67 70 69 6f 40 31 33 30 34 30 30 30 30 00 
+      '/soc/gpio@13040000'
+    ethernet0:
+      2f 73 6f 63 2f 65 74 68 65 72 6e 65 74 40 31 36 30 33 30 30 
+      30 30 00 
+      '/soc/ethernet@16030000'
+    ethernet1:
+      2f 73 6f 63 2f 65 74 68 65 72 6e 65 74 40 31 36 30 34 30 30 
+      30 30 00 
+      '/soc/ethernet@16040000'
+    mmc0:
+      2f 73 6f 63 2f 73 64 69 6f 30 40 31 36 30 31 30 30 30 30 00 
+      '/soc/sdio0@16010000'
+    mmc1:
+      2f 73 6f 63 2f 73 64 69 6f 31 40 31 36 30 32 30 30 30 30 00 
+      '/soc/sdio1@16020000'
+    serial0:
+      2f 73 6f 63 2f 73 65 72 69 61 6c 40 31 30 30 30 30 30 30 30 
+      00 
+      '/soc/serial@10000000'
+    serial3:
+      2f 73 6f 63 2f 73 65 72 69 61 6c 40 31 32 30 30 30 30 30 30 
+      00 
+      '/soc/serial@12000000'
+    i2c0:
+      2f 73 6f 63 2f 69 32 63 40 31 30 30 33 30 30 30 30 00 
+      '/soc/i2c@10030000'
+    i2c1:
+      2f 73 6f 63 2f 69 32 63 40 31 30 30 34 30 30 30 30 00 
+      '/soc/i2c@10040000'
+    i2c2:
+      2f 73 6f 63 2f 69 32 63 40 31 30 30 35 30 30 30 30 00 
+      '/soc/i2c@10050000'
+    i2c3:
+      2f 73 6f 63 2f 69 32 63 40 31 32 30 33 30 30 30 30 00 
+      '/soc/i2c@12030000'
+    i2c4:
+      2f 73 6f 63 2f 69 32 63 40 31 32 30 34 30 30 30 30 00 
+      '/soc/i2c@12040000'
+    i2c5:
+      2f 73 6f 63 2f 69 32 63 40 31 32 30 35 30 30 30 30 00 
+      '/soc/i2c@12050000'
+    i2c6:
+      2f 73 6f 63 2f 69 32 63 40 31 32 30 36 30 30 30 30 00 
+      '/soc/i2c@12060000'
+  Node 0xaa7c: chosen
+    fixup-applied:
+    boot-hartid:
+      00 00 00 01 
+    bootargs:
+      63 6f 6e 73 6f 6c 65 3d 74 74 79 53 30 2c 31 31 35 32 30 30 
+      20 20 64 65 62 75 67 20 72 6f 6f 74 77 61 69 74 20 20 65 61 
+      72 6c 79 63 6f 6e 3d 73 62 69 00 
+      'console=ttyS0,115200  debug rootwait  earlycon=sbi'
+    linux,initrd-start:
+      00 00 00 00 46 10 00 00 
+    linux,initrd-end:
+      00 00 00 00 4c 00 00 00 
+    stdout-path:
+      73 65 72 69 61 6c 30 3a 31 31 35 32 30 30 00 
+      'serial0:115200'
+    #bootargs:
+      64 65 62 75 67 20 63 6f 6e 73 6f 6c 65 3d 74 74 79 53 30 20 
+      72 6f 6f 74 77 61 69 74 00 
+      'debug console=ttyS0 rootwait'
+  Node 0xab58: memory@40000000
+    device_type:
+      6d 65 6d 6f 72 79 00 
+      'memory'
+    reg:
+      00 00 00 00 40 00 00 00 00 00 00 01 00 00 00 00 
+  Node 0xaba0: reserved-memory
+    #address-cells:
+      00 00 00 02 
+    #size-cells:
+      00 00 00 02 
+    ranges:
+    Node 0xabe0: linux,cma
+      compatible:
+        73 68 61 72 65 64 2d 64 6d 61 2d 70 6f 6f 6c 00 
+        'shared-dma-pool'
+      reusable:
+      size:
+        00 00 00 00 20 00 00 00 
+      alignment:
+        00 00 00 00 00 00 10 00 
+      alloc-ranges:
+        00 00 00 00 80 00 00 00 00 00 00 00 20 00 00 00 
+      linux,cma-default:
+    Node 0xac6c: e24@c0000000
+      no-map:
+      reg:
+        00 00 00 00 c0 11 00 00 00 00 00 00 00 0f 00 00 
+    Node 0xacac: xrpbuffer@f0000000
+      reg:
+        00 00 00 00 f0 00 00 00 00 00 00 00 01 ff ff ff 00 00 00 00 
+        f2 00 00 00 00 00 00 00 00 00 10 00 00 00 00 00 f2 00 10 00 
+        00 00 00 00 00 ff f0 00 00 00 00 00 f3 00 00 00 00 00 00 00 
+        00 00 10 00 
+      phandle:
+        00 00 00 57 
+  Node 0xad28: leds
+    compatible:
+      67 70 69 6f 2d 6c 65 64 73 00 
+      'gpio-leds'
+    Node 0xad4c: led-ack
+      gpios:
+        00 00 00 58 00 00 00 03 00 00 00 00 
+      color:
+        00 00 00 02 
+      function:
+        68 65 61 72 74 62 65 61 74 00 
+        'heartbeat'
+      linux,default-trigger:
+        68 65 61 72 74 62 65 61 74 00 
+        'heartbeat'
+      label:
+        61 63 6b 00 
+        'ack'
+  Node 0xadc8: gpio-restart
+    compatible:
+      67 70 69 6f 2d 72 65 73 74 61 72 74 00 
+      'gpio-restart'
+    gpios:
+      00 00 00 25 00 00 00 23 00 00 00 00 
+    priority:
+      00 00 00 e0 
