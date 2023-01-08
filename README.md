@@ -2,7 +2,7 @@
 
 I'm working on getting FreeBSD running nicely on the [StarFive VisionFive 2](https://www.kickstarter.com/projects/starfive/visionfive-2), a nice RISC-V board recently released. I'll be dropping scripts, notes, programs and anything else relevant in this repo until I get beyond early experiments.
 
-Latest progress (2023-01-07): first boot completes! No drivers for anything yet.
+Latest progress (2023-01-07): booting 14.0-SNAPSHOT 2023-01-01. No drivers for anything yet.
 
 ### Getting started
 
@@ -12,7 +12,7 @@ Make sure you set up the serial port according to the docs. FreeBSD has no drive
 
 ### Create an image
 
-Run `mkvf2img.sh`. This will produce `vf2.img`, a complete FreeBSD 13.1 base image with everything needed to boot on the VF2 and run from memory (necessary, since we have no device drivers yet). Flash it to an SD card.
+Run `mkvf2img.sh`. This will produce `vf2.img`, a complete FreeBSD 14.0-SNAPSHOT 2023-01-01 base image with everything needed to boot on the VF2 and run from memory (necessary, since we have no device drivers yet). Flash it to an SD card.
 
 ### Boot the FreeBSD loader
 

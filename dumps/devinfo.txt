@@ -3,136 +3,136 @@ nexus0
   timer0
   rcons0
   ofwbus0
-    clk_fixed0 pnpinfo name=osc compat=fixed-clock
-    clk_fixed1 pnpinfo name=clk-ext-camera compat=fixed-clock
-    clk_fixed2 pnpinfo name=gmac1_rmii_refin compat=fixed-clock
-    clk_fixed3 pnpinfo name=gmac1_rgmii_rxin compat=fixed-clock
-    clk_fixed4 pnpinfo name=i2stx_bclk_ext compat=fixed-clock
-    clk_fixed5 pnpinfo name=i2stx_lrck_ext compat=fixed-clock
-    clk_fixed6 pnpinfo name=i2srx_bclk_ext compat=fixed-clock
-    clk_fixed7 pnpinfo name=i2srx_lrck_ext compat=fixed-clock
-    clk_fixed8 pnpinfo name=tdm_ext compat=fixed-clock
-    clk_fixed9 pnpinfo name=mclk_ext compat=fixed-clock
-    clk_fixed10 pnpinfo name=jtag_tck_inner compat=fixed-clock
-    clk_fixed11 pnpinfo name=bist_apb compat=fixed-clock
-    clk_fixed12 pnpinfo name=gmac0_rmii_refin compat=fixed-clock
-    clk_fixed13 pnpinfo name=gmac0_rgmii_rxin compat=fixed-clock
-    clk_fixed14 pnpinfo name=clk_rtc compat=fixed-clock
-    clk_fixed15 pnpinfo name=hdmitx0_pixelclk compat=fixed-clock
-    clk_fixed16 pnpinfo name=mipitx_dphy_rxesc compat=fixed-clock
-    clk_fixed17 pnpinfo name=mipitx_dphy_txbytehs compat=fixed-clock
-    clk_fixed18 pnpinfo name=wm8960_mclk compat=fixed-clock
-    clk_fixed19 pnpinfo name=ac108_mclk compat=fixed-clock
-    unknown pnpinfo name=opp-table-0 compat=operating-points-v2
-    cpulist0 pnpinfo name=cpus
+    clk_fixed0 pnpinfo name=osc compat=fixed-clock 
+    clk_fixed1 pnpinfo name=clk-ext-camera compat=fixed-clock 
+    clk_fixed2 pnpinfo name=gmac1_rmii_refin compat=fixed-clock 
+    clk_fixed3 pnpinfo name=gmac1_rgmii_rxin compat=fixed-clock 
+    clk_fixed4 pnpinfo name=i2stx_bclk_ext compat=fixed-clock 
+    clk_fixed5 pnpinfo name=i2stx_lrck_ext compat=fixed-clock 
+    clk_fixed6 pnpinfo name=i2srx_bclk_ext compat=fixed-clock 
+    clk_fixed7 pnpinfo name=i2srx_lrck_ext compat=fixed-clock 
+    clk_fixed8 pnpinfo name=tdm_ext compat=fixed-clock 
+    clk_fixed9 pnpinfo name=mclk_ext compat=fixed-clock 
+    clk_fixed10 pnpinfo name=jtag_tck_inner compat=fixed-clock 
+    clk_fixed11 pnpinfo name=bist_apb compat=fixed-clock 
+    clk_fixed12 pnpinfo name=gmac0_rmii_refin compat=fixed-clock 
+    clk_fixed13 pnpinfo name=gmac0_rgmii_rxin compat=fixed-clock 
+    clk_fixed14 pnpinfo name=clk_rtc compat=fixed-clock 
+    clk_fixed15 pnpinfo name=hdmitx0_pixelclk compat=fixed-clock 
+    clk_fixed16 pnpinfo name=mipitx_dphy_rxesc compat=fixed-clock 
+    clk_fixed17 pnpinfo name=mipitx_dphy_txbytehs compat=fixed-clock 
+    clk_fixed18 pnpinfo name=wm8960_mclk compat=fixed-clock 
+    clk_fixed19 pnpinfo name=ac108_mclk compat=fixed-clock 
+    unknown pnpinfo name=opp-table-0 compat=operating-points-v2 
+    cpulist0 pnpinfo name=cpus 
       cpu0
         riscv64_cpu0
-      cpu1 pnpinfo name=cpu@1 compat=sifive,u74-mc
+      cpu1 pnpinfo name=cpu@1 compat=sifive,u74-mc 
         riscv64_cpu1
-      cpu2 pnpinfo name=cpu@2 compat=sifive,u74-mc
+      cpu2 pnpinfo name=cpu@2 compat=sifive,u74-mc 
         riscv64_cpu2
-      cpu3 pnpinfo name=cpu@3 compat=sifive,u74-mc
+      cpu3 pnpinfo name=cpu@3 compat=sifive,u74-mc 
         riscv64_cpu3
-      cpu4 pnpinfo name=cpu@4 compat=sifive,u74-mc
+      cpu4 pnpinfo name=cpu@4 compat=sifive,u74-mc 
         riscv64_cpu4
-    simplebus0 pnpinfo name=soc compat=simple-bus
-      unknown pnpinfo name=cache-controller@2010000 compat=sifive,fu740-c000-ccache
-      syscon_generic_dev0 pnpinfo name=aon_syscon@17010000 compat=syscon
-      syscon_generic_dev1 pnpinfo name=stg_syscon@10240000 compat=syscon
-      syscon_generic_dev2 pnpinfo name=sys_syscon@13030000 compat=syscon
-      unknown pnpinfo name=clint@2000000 compat=riscv,clint0
-      plic0 pnpinfo name=plic@c000000 compat=riscv,plic0
-      unknown pnpinfo name=clock-controller compat=starfive,jh7110-clkgen
-      unknown pnpinfo name=clock-controller@295C0000 compat=starfive,jh7110-clk-vout
-      unknown pnpinfo name=clock-controller@19810000 compat=starfive,jh7110-clk-isp
-      unknown pnpinfo name=spi@13010000 compat=cdns,qspi-nor
-      unknown pnpinfo name=otp@17050000 compat=starfive,jh7110-otp
-      unknown pnpinfo name=usbdrd compat=starfive,jh7110-cdns3
-      unknown pnpinfo name=timer@13050000 compat=starfive,jh7110-timers
-      unknown pnpinfo name=wdog@13070000 compat=starfive,jh7110-wdt
-      unknown pnpinfo name=rtc@17040000 compat=starfive,jh7110-rtc
-      unknown pnpinfo name=power-controller@17030000 compat=starfive,jh7110-pmu
-      unknown pnpinfo name=serial@10000000 compat=snps,dw-apb-uart
+    simplebus0 pnpinfo name=soc compat=simple-bus 
+      unknown pnpinfo name=cache-controller@2010000 compat=sifive,fu740-c000-ccache 
+      syscon_generic_dev0 pnpinfo name=aon_syscon@17010000 compat=syscon 
+      syscon_generic_dev1 pnpinfo name=stg_syscon@10240000 compat=syscon 
+      syscon_generic_dev2 pnpinfo name=sys_syscon@13030000 compat=syscon 
+      unknown pnpinfo name=clint@2000000 compat=riscv,clint0 
+      plic0 pnpinfo name=plic@c000000 compat=riscv,plic0 
+      unknown pnpinfo name=clock-controller compat=starfive,jh7110-clkgen 
+      unknown pnpinfo name=clock-controller@295C0000 compat=starfive,jh7110-clk-vout 
+      unknown pnpinfo name=clock-controller@19810000 compat=starfive,jh7110-clk-isp 
+      unknown pnpinfo name=spi@13010000 compat=cdns,qspi-nor 
+      unknown pnpinfo name=otp@17050000 compat=starfive,jh7110-otp 
+      unknown pnpinfo name=usbdrd compat=starfive,jh7110-cdns3 
+      unknown pnpinfo name=timer@13050000 compat=starfive,jh7110-timers 
+      unknown pnpinfo name=wdog@13070000 compat=starfive,jh7110-wdt 
+      unknown pnpinfo name=rtc@17040000 compat=starfive,jh7110-rtc 
+      unknown pnpinfo name=power-controller@17030000 compat=starfive,jh7110-pmu 
+      unknown pnpinfo name=serial@10000000 compat=snps,dw-apb-uart 
       unknown
       unknown
       unknown
       unknown
       unknown
-      unknown pnpinfo name=dma-controller@16050000 compat=starfive,jh7110-dma
-      unknown pnpinfo name=gpio@13040000 compat=starfive,jh7110-sys-pinctrl
-      unknown pnpinfo name=gpio@17020000 compat=starfive,jh7110-aon-pinctrl
-      unknown pnpinfo name=tmon@120e0000 compat=starfive,jh7110-temp
-      unknown pnpinfo name=thermal-zones
-      unknown pnpinfo name=trng@1600C000 compat=starfive,jh7110-trng
-      unknown pnpinfo name=sec_dma@16008000 compat=arm,pl080
-      unknown pnpinfo name=crypto@16000000 compat=starfive,jh7110-sec
-      unknown pnpinfo name=i2c@10030000 compat=snps,designware-i2c
+      unknown pnpinfo name=dma-controller@16050000 compat=starfive,jh7110-dma 
+      unknown pnpinfo name=gpio@13040000 compat=starfive,jh7110-sys-pinctrl 
+      unknown pnpinfo name=gpio@17020000 compat=starfive,jh7110-aon-pinctrl 
+      unknown pnpinfo name=tmon@120e0000 compat=starfive,jh7110-temp 
+      unknown pnpinfo name=thermal-zones 
+      unknown pnpinfo name=trng@1600C000 compat=starfive,jh7110-trng 
+      unknown pnpinfo name=sec_dma@16008000 compat=arm,pl080 
+      unknown pnpinfo name=crypto@16000000 compat=starfive,jh7110-sec 
+      unknown pnpinfo name=i2c@10030000 compat=snps,designware-i2c 
       unknown
-      unknown pnpinfo name=i2c@10050000 compat=snps,designware-i2c
-      unknown
-      unknown
-      unknown pnpinfo name=i2c@12050000 compat=snps,designware-i2c
-      unknown pnpinfo name=i2c@12060000 compat=snps,designware-i2c
-      unknown pnpinfo name=sdio0@16010000 compat=starfive,jh7110-sdio
-      unknown pnpinfo name=sdio1@16020000 compat=starfive,jh7110-sdio
-      unknown pnpinfo name=vin_sysctl@19800000 compat=starfive,jh7110-vin
-      unknown pnpinfo name=jpu@11900000 compat=starfive,jpu
-      unknown pnpinfo name=vpu_dec@130A0000 compat=starfive,vdec
-      unknown pnpinfo name=vpu_enc@130B0000 compat=starfive,venc
-      unknown pnpinfo name=reset-controller compat=starfive,jh7110-reset
-      unknown pnpinfo name=stmmac-axi-config
-      unknown pnpinfo name=ethernet@16030000 compat=starfive,dwmac
-      unknown pnpinfo name=ethernet@16040000 compat=starfive,dwmac
-      unknown pnpinfo name=gpu@18000000 compat=img-gpu
+      unknown pnpinfo name=i2c@10050000 compat=snps,designware-i2c 
       unknown
       unknown
-      unknown
-      unknown
-      unknown pnpinfo name=pwmdac@100b0000 compat=starfive,jh7110-pwmdac
-      unknown
-      unknown pnpinfo name=pdm@100d0000 compat=starfive,jh7110-pdm
-      unknown
-      unknown
-      unknown pnpinfo name=i2stx_4ch0@120b0000 compat=starfive,jh7110-i2stx-4ch0
-      unknown
-      unknown pnpinfo name=pwm@120d0000 compat=starfive,jh7110-pwm
-      unknown
-      unknown pnpinfo name=pwmdac-transmitter compat=starfive,jh7110-pwmdac-dit
-      unknown
-      unknown pnpinfo name=spi@10060000 compat=arm,pl022
+      unknown pnpinfo name=i2c@12050000 compat=snps,designware-i2c 
+      unknown pnpinfo name=i2c@12060000 compat=snps,designware-i2c 
+      unknown pnpinfo name=sdio0@16010000 compat=starfive,jh7110-sdio 
+      unknown pnpinfo name=sdio1@16020000 compat=starfive,jh7110-sdio 
+      unknown pnpinfo name=vin_sysctl@19800000 compat=starfive,jh7110-vin 
+      unknown pnpinfo name=jpu@11900000 compat=starfive,jpu 
+      unknown pnpinfo name=vpu_dec@130A0000 compat=starfive,vdec 
+      unknown pnpinfo name=vpu_enc@130B0000 compat=starfive,venc 
+      unknown pnpinfo name=reset-controller compat=starfive,jh7110-reset 
+      unknown pnpinfo name=stmmac-axi-config 
+      unknown pnpinfo name=ethernet@16030000 compat=starfive,dwmac 
+      unknown pnpinfo name=ethernet@16040000 compat=starfive,dwmac 
+      unknown pnpinfo name=gpu@18000000 compat=img-gpu 
       unknown
       unknown
       unknown
       unknown
+      unknown pnpinfo name=pwmdac@100b0000 compat=starfive,jh7110-pwmdac 
+      unknown
+      unknown pnpinfo name=pdm@100d0000 compat=starfive,jh7110-pdm 
       unknown
       unknown
-      unknown pnpinfo name=pcie@2B000000 compat=starfive,jh7110-pcie
-      unknown pnpinfo name=pcie@2C000000 compat=starfive,jh7110-pcie
-      unknown pnpinfo name=mailbox@0 compat=starfive,mail_box
-      unknown pnpinfo name=mailbox_client@0 compat=starfive,mailbox-test
-      unknown pnpinfo name=display-subsystem compat=starfive,jh7110-display
-      syscon_generic_dev3 pnpinfo name=dssctrl@295B0000 compat=starfive,jh7110-dssctrl
+      unknown pnpinfo name=i2stx_4ch0@120b0000 compat=starfive,jh7110-i2stx-4ch0 
+      unknown
+      unknown pnpinfo name=pwm@120d0000 compat=starfive,jh7110-pwm 
+      unknown
+      unknown pnpinfo name=pwmdac-transmitter compat=starfive,jh7110-pwmdac-dit 
+      unknown
+      unknown pnpinfo name=spi@10060000 compat=arm,pl022 
       unknown
       unknown
-      unknown pnpinfo name=dc8200@29400000 compat=starfive,jh7110-dc8200
-      unknown pnpinfo name=dsi-output compat=starfive,jh7110-display-encoder
-      unknown pnpinfo name=mipi-dphy@295e0000 compat=starfive,jh7110-mipi-dphy-tx
-      unknown pnpinfo name=mipi@295d0000 compat=starfive,jh7110-mipi_dsi
-      unknown pnpinfo name=hdmi@29590000 compat=starfive,jh7110-hdmi
-      unknown pnpinfo name=snd-card0 compat=simple-audio-card
-      unknown pnpinfo name=snd-card1 compat=simple-audio-card
-      unknown pnpinfo name=snd-card2 compat=simple-audio-card
-      unknown pnpinfo name=snd-card3 compat=simple-audio-card
-      unknown pnpinfo name=snd-card4 compat=simple-audio-card
-      unknown pnpinfo name=snd-card5 compat=simple-audio-card
-      unknown pnpinfo name=snd-card6 compat=simple-audio-card
-      unknown pnpinfo name=e24@0 compat=starfive,e24
-      unknown pnpinfo name=xrp@0 compat=cdns,xrp
-      unknown pnpinfo name=starfive,jh7110-cpufreq compat=starfive,jh7110-cpufreq
-    unknown pnpinfo name=aliases
-    unknown pnpinfo name=chosen
-    unknown pnpinfo name=memory@40000000
-    unknown pnpinfo name=reserved-memory
-    unknown pnpinfo name=leds compat=gpio-leds
-    unknown pnpinfo name=gpio-restart compat=gpio-restart
+      unknown
+      unknown
+      unknown
+      unknown
+      unknown pnpinfo name=pcie@2B000000 compat=starfive,jh7110-pcie 
+      unknown pnpinfo name=pcie@2C000000 compat=starfive,jh7110-pcie 
+      unknown pnpinfo name=mailbox@0 compat=starfive,mail_box 
+      unknown pnpinfo name=mailbox_client@0 compat=starfive,mailbox-test 
+      unknown pnpinfo name=display-subsystem compat=starfive,jh7110-display 
+      syscon_generic_dev3 pnpinfo name=dssctrl@295B0000 compat=starfive,jh7110-dssctrl 
+      unknown
+      unknown
+      unknown pnpinfo name=dc8200@29400000 compat=starfive,jh7110-dc8200 
+      unknown pnpinfo name=dsi-output compat=starfive,jh7110-display-encoder 
+      unknown pnpinfo name=mipi-dphy@295e0000 compat=starfive,jh7110-mipi-dphy-tx 
+      unknown pnpinfo name=mipi@295d0000 compat=starfive,jh7110-mipi_dsi 
+      unknown pnpinfo name=hdmi@29590000 compat=starfive,jh7110-hdmi 
+      unknown pnpinfo name=snd-card0 compat=simple-audio-card 
+      unknown pnpinfo name=snd-card1 compat=simple-audio-card 
+      unknown pnpinfo name=snd-card2 compat=simple-audio-card 
+      unknown pnpinfo name=snd-card3 compat=simple-audio-card 
+      unknown pnpinfo name=snd-card4 compat=simple-audio-card 
+      unknown pnpinfo name=snd-card5 compat=simple-audio-card 
+      unknown pnpinfo name=snd-card6 compat=simple-audio-card 
+      unknown pnpinfo name=e24@0 compat=starfive,e24 
+      unknown pnpinfo name=xrp@0 compat=cdns,xrp 
+      unknown pnpinfo name=starfive,jh7110-cpufreq compat=starfive,jh7110-cpufreq 
+    unknown pnpinfo name=aliases 
+    unknown pnpinfo name=chosen 
+    unknown pnpinfo name=memory@40000000 
+    unknown pnpinfo name=reserved-memory 
+    unknown pnpinfo name=leds compat=gpio-leds 
+    unknown pnpinfo name=gpio-restart compat=gpio-restart 
   cryptosoft0

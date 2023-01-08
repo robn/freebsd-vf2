@@ -2,12 +2,14 @@
 
 set -euo pipefail
 
-BASE_IMAGE=FreeBSD-13.1-RELEASE-riscv-riscv64-GENERICSD.img
+BASE_URL=https://download.freebsd.org/snapshots/riscv/riscv64/ISO-IMAGES/14.0
+BASE_IMAGE=FreeBSD-14.0-CURRENT-riscv-riscv64-GENERICSD-20230101-231d75568f16-259905.img
+
 DTB_FILE=jh7110-visionfive-v2.dtb
 
 # get base image
 if [ ! -f $BASE_IMAGE ] ; then
-  curl -LOC - https://download.freebsd.org/releases/riscv/riscv64/ISO-IMAGES/13.1/$BASE_IMAGE.xz
+  curl -LOC - $BASE_URL/$BASE_IMAGE.xz
   xz -kd $BASE_IMAGE.xz
 fi
 

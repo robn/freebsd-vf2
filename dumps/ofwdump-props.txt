@@ -4028,7 +4028,7 @@ Node 0x38:
   Node 0xaa7c: chosen
     fixup-applied:
     boot-hartid:
-      00 00 00 01 
+      00 00 00 02 
     bootargs:
       63 6f 6e 73 6f 6c 65 3d 74 74 79 53 30 2c 31 31 35 32 30 30 
       20 20 64 65 62 75 67 20 72 6f 6f 74 77 61 69 74 20 20 65 61 

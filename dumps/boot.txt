@@ -1,0 +1,290 @@
+Loading kernel...
+/boot/kernel/kernel text=0x5bb3c8 text=0x17819c data=0xf5d50 data=0x1f9c+0x2739ec 0x8+0x1f6fe90+0x8+0xf5c90/
+Loading configured modules...
+can't find '/boot/entropy'
+/boot/kernel/umodem.ko text=0x2080 text=0x11a0 data=0x6f0+0x4 0x8+0x6cd8+0x8+0xdd5
+loading required module 'ucom'
+/boot/kernel/ucom.ko text=0x2618 text=0x2af8 data=0x960+0x858 0x8+0xf228+0x8+0x14a5
+can't find '/etc/hostid'
+
+Hit [Enter] to boot immediately, or any other key for command prompt.
+Booting [/boot/kernel/kernel] in 9 seconds...  
+
+Type '?' for a list of commands, 'help' for more detailed help.
+OK lsdev
+disk devices:
+    disk0:    15523840 X 512 blocks (removable)
+      disk0p1: EFI
+      disk0p2: FreeBSD UFS
+http: (unknown)
+net devices:
+    net0:
+OK lsmod
+ 0xffffffc000000000: /boot/kernel/kernel (elf kernel, 0x2b06208)
+  modules: riscv_syscon.1 xdr.1 ufs.1 kernel_mac_support.5 krpc.1 cryptosoft.1 crypto.1 nfslockd.1 nfssvc.1 ipsec_support.1 ertt.1 cubic.2 if_vlan.3 if_tap.1 if_tun.1 if_tuntap.1 if_gif.1 ether.1 zlib.1 aio.1 sysvshm.1 sysvsem.1 sysvmsg.1 firmware.1 acl_posix1e.1 acl_nfs4.1 kernel.1400077 cd9660.1 geom_raid.0 geom_part_mbr.0 geom_part_gpt.0 geom_part_bsd.0 g_part.0 geom_label.0 pseudofs.1 procfs.1 nfsd.1 nfscl.1 nfs.1 nfscommon.1 msdosfs.1 virtio_blk.1 vtnet.1 virtio_mmio.1 virtio_pci.1 virtio.1 usb_quirk.1 ukbd.1 uhub.1 usb.1 umass.1 tcp_log_dev.1 spibus.1 ofw_spibus.1 random_device.1 random_harvestq.1 pci.1 ofwbus.1 nvme.1 nvd.1 null.1 mii_bitbang.1 miibus.1 mem.1 geom_md.0 ofw_iicbus.1 iicbus.1 hidquirk.1 hid.1 ofw_gpiobus.1 gpioc.1 gpiobus.1 simple_mfd.1 fbd.1 syscon_generic.1 clk_fixed.1 ofw_clkbus.1 cam.1 
+ 0xffffffc002b07000: /boot/kernel/umodem.ko (elf module, 0xd3d8)
+  modules: umodem.1 
+ 0xffffffc002b15000: /boot/kernel/ucom.ko (elf module, 0x189a8)
+  modules: ucom.1 
+OK load geom_uzip
+/boot/kernel/geom_uzip.ko text=0x29f2 text=0x24ec data=0x1088+0x4 0x8+0xbf28+0x8+0x123b
+loading required module 'xz'
+/boot/kernel/xz.ko text=0xc3e text=0x2070 data=0x300+0xc00 0x8+0xe8e0+0x8+0x52c
+OK load -t md_image /root.img.uzip
+/root.img.uzip size=0x2e2b1c00
+OK boot
+Using DTB provided by EFI at 0x47f00000.
+Kernel entry at 0x8f00002e...
+Kernel args: (null)
+clk u5_dw_i2c_clk_core already disabled
+clk u5_dw_i2c_clk_apb already disabled
+---<<BOOT>>---
+GDB: no debug ports present
+KDB: debugger backends: ddb
+KDB: current backend: ddb
+Copyright (c) 1992-2022 The FreeBSD Project.
+Copyright (c) 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994
+	The Regents of the University of California. All rights reserved.
+FreeBSD is a registered trademark of The FreeBSD Foundation.
+FreeBSD 14.0-CURRENT #0 main-n259905-231d75568f16: Sun Jan  1 07:57:08 UTC 2023
+    root@releng1.nyi.freebsd.org:/usr/obj/usr/src/riscv.riscv64/sys/GENERIC riscv
+FreeBSD clang version 14.0.5 (https://github.com/llvm/llvm-project.git llvmorg-14.0.5-0-gc12386ae247c)
+WARNING: WITNESS option enabled, expect reduced performance.
+VT: init without driver.
+SBI: OpenSBI v1.0
+SBI Specification Version: 0.3
+CPU(0): Unknown Implementer Unknown Processor
+real memory  = 4294967296 (4096 MB)
+avail memory = 3367084032 (3211 MB)
+Starting CPU 3 (hart 1)
+Starting CPU 1 (hart 3)
+Starting CPU 2 (hart 4)
+FreeBSD/SMP: Multiprocessor System Detected: 4 CPUs
+arc4random: WARNING: initial seeding bypassed the cryptographic random device because it was not yet seeded and the knob 'bypass_before_seeding' was enabled.
+random: entropy device external interface
+kbd0 at kbdmux0
+ofwbus0: <Open Firmware Device Tree>
+clk_fixed0: <Fixed clock> on ofwbus0
+clk_fixed1: <Fixed clock> on ofwbus0
+clk_fixed2: <Fixed clock> on ofwbus0
+clk_fixed3: <Fixed clock> on ofwbus0
+clk_fixed4: <Fixed clock> on ofwbus0
+clk_fixed5: <Fixed clock> on ofwbus0
+clk_fixed6: <Fixed clock> on ofwbus0
+clk_fixed7: <Fixed clock> on ofwbus0
+clk_fixed8: <Fixed clock> on ofwbus0
+clk_fixed9: <Fixed clock> on ofwbus0
+clk_fixed10: <Fixed clock> on ofwbus0
+clk_fixed11: <Fixed clock> on ofwbus0
+clk_fixed12: <Fixed clock> on ofwbus0
+clk_fixed13: <Fixed clock> on ofwbus0
+clk_fixed14: <Fixed clock> on ofwbus0
+clk_fixed15: <Fixed clock> on ofwbus0
+clk_fixed16: <Fixed clock> on ofwbus0
+clk_fixed17: <Fixed clock> on ofwbus0
+clk_fixed18: <Fixed clock> on ofwbus0
+clk_fixed19: <Fixed clock> on ofwbus0
+simplebus0: <Flattened device tree simple bus> on ofwbus0
+plic0: <RISC-V PLIC> mem 0xc000000-0xfffffff irq 14,15,16,17,18,19,20,21,22 on simplebus0
+timer0: <RISC-V Timer>
+Timecounter "RISC-V Timecounter" frequency 4000000 Hz quality 1000
+Event timer "RISC-V Eventtimer" frequency 4000000 Hz quality 1000
+rcons0: <RISC-V console>
+cpulist0: <Open Firmware CPU Group> on ofwbus0
+cpu0: <Open Firmware CPU> on cpulist0
+cpu1: <Open Firmware CPU> on cpulist0
+cpu2: <Open Firmware CPU> on cpulist0
+cpu3: <Open Firmware CPU> on cpulist0
+cpu4: <Open Firmware CPU> on cpulist0
+Timecounters tick every 1.000 msec
+usb_needs_explore_all: no devclass
+Release APs
+md0: Preloaded image </root.img.uzip> 774577152 bytes at 0xffffffc002b589d0
+WARNING: WITNESS option enabled, expect reduced performance.
+random: unblocking device.
+
+Loader variables:
+
+Manual root filesystem specification:
+  <fstype>:<device> [options]
+      Mount <device> using filesystem <fstype>
+      and with the specified (optional) option list.
+
+    eg. ufs:/dev/da0s1a
+        zfs:zroot/ROOT/default
+        cd9660:/dev/cd0 ro
+          (which is equivalent to: mount -t cd9660 -o ro /dev/cd0 /)
+
+  ?               List valid disk boot devices
+  .               Yield 1 second (for background tasks)
+  <empty line>    Abort manual input
+
+mountroot> ?
+
+List of GEOM managed disk devices:
+  ufs/rootfs ufsid/63b1574e97bc491e md0.uzip md0
+
+mountroot> ufs:/dev/md0.uzip
+Trying to mount root from ufs:/dev/md0.uzip []...
+Warning: no time-of-day clock registered, system time will not be set accurately
+No suitable dump device was found.
+Setting hostuuid: 31374656-3031-3141-2d32-3234392d4430.
+Setting hostid: 0xed74602a.
+Starting file system checks:
+Growing root partition to fill device
+unhandled type: UZIP
+growfs: requested size 4.9GB is equal to the current filesystem size 4.9GB
+eval: cannot create /etc/hostid: Read-only file system
+/etc/rc: WARNING: could not store hostuuid in /etc/hostid.
+Mounting local filesystems:.
+mkdir: /tmp/.diskless.a8dd26c8e391b72e1531dabdfb9abd43ab2e9f2c54dff21a4c252b2f37f3d11d: Read-only file system
+Building /boot/kernel/linker.hints
+kldxref: can't create /boot/lhint.vC79Ak: Read-only file system
+devmatch: Can't read linker hints file.
+ELF ldconfig path: /lib /usr/lib /usr/lib/compat
+Setting hostname: generic.
+Setting up harvesting: [CALLOUT],[UMA],[FS_ATIME],SWI,INTERRUPT,NET_NG,[NET_ETHER],NET_TUN,MOUSE,KEYBOARD,ATTACH,CACHED
+Feeding entropy: dd: /entropy: Read-only file system
+dd: /boot/entropy: Read-only file system
+.
+lo0: link state changed to UP
+Starting Network: lo0.
+lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> metric 0 mtu 16384
+	options=680003<RXCSUM,TXCSUM,LINKSTATE,RXCSUM_IPV6,TXCSUM_IPV6>
+	inet6 ::1 prefixlen 128
+	inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1
+	inet 127.0.0.1 netmask 0xff000000
+	groups: lo
+	nd6 options=21<PERFORMNUD,AUTO_LINKLOCAL>
+Starting devd.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+devmatch: Can't read linker hints file.
+add host 127.0.0.1: gateway lo0 fib 0: route already in table
+add host ::1: gateway lo0 fib 0: route already in table
+add net fe80::: gateway ::1
+add net ff02::: gateway ::1
+add net ::ffff:0.0.0.0: gateway ::1
+add net ::0.0.0.0: gateway ::1
+Updating motd:.
+Updating /var/run/os-release done.
+Clearing /tmp (X related).
+Creating and/or trimming log files.
+Creating /var/db/machine-id done.
+Starting syslogd.
+Mounting late filesystems:.
+Starting cron.
+Generating RSA host key.
+Saving key "/etc/ssh/ssh_host_rsa_key" failed: Read-only file system
+ssh-keygen: /etc/ssh/ssh_host_rsa_key.pub: No such file or directory
+Generating ECDSA host key.
+Saving key "/etc/ssh/ssh_host_ecdsa_key" failed: Read-only file system
+ssh-keygen: /etc/ssh/ssh_host_ecdsa_key.pub: No such file or directory
+Generating ED25519 host key.
+Saving key "/etc/ssh/ssh_host_ed25519_key" failed: Read-only file system
+ssh-keygen: /etc/ssh/ssh_host_ed25519_key.pub: No such file or directory
+Performing sanity check on sshd configuration.
+No host key files found
+/etc/rc: WARNING: failed precmd routine for sshd
+Starting background file system checks in 60 seconds.
+mount: /dev/md0.uzip: Read-only file system
+rm: /firstboot: Read-only file system
+
+Sun Jan  8 12:47:56 UTC 2023
+
+FreeBSD/riscv (generic) (rcons)
+
+login: 

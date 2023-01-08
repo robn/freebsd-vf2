@@ -2378,7 +2378,7 @@ root@generic:~ # sysctl -b hw.fdt.dtb | dtc -I dtb
         chosen {
 
                 fixup-applied;
-                boot-hartid = <0x1>;
+                boot-hartid = <0x2>;
                 bootargs = "console=ttyS0,115200  debug rootwait  earlycon=sbi";
                 linux,initrd-start = <0x0 0x46100000>;
                 linux,initrd-end = <0x0 0x4c000000>;
