@@ -3,7 +3,7 @@
 set -euo pipefail
 
 BASE_URL=https://download.freebsd.org/snapshots/riscv/riscv64/ISO-IMAGES/14.0
-BASE_IMAGE=FreeBSD-14.0-CURRENT-riscv-riscv64-GENERICSD-20230101-231d75568f16-259905.img
+BASE_IMAGE=FreeBSD-14.0-CURRENT-riscv-riscv64-GENERICSD-20230420-f369f10dd812-262341.img
 
 DTB_FILE=jh7110-visionfive-v2.dtb
 
