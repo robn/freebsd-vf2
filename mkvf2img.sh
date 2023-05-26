@@ -34,7 +34,7 @@ mdconfig -d -u 0
 mdconfig -a -t vnode -f efi.img -u 0
 mount_msdosfs /dev/md0 /mnt
 mkdir -p /mnt/dtb/starfive
-cp -v $DTB_FILE /mnt/dtb/starfive
+cp -v $DTB_FILE /mnt/dtb/starfive/starfive_visionfive2.dtb
 umount /dev/md0
 mdconfig -d -u 0
 
